@@ -1,8 +1,8 @@
-import Comunidad from "@/components/Comunidad";
 import Home from "@/components/Home";
+import Comunidad from "@/components/Comunidad";
 import PlaceholderVideosRecientes from "@/components/PlaceholderVideosRecientes";
-import Sponsor from "@/components/Sponsor";
 // import VideosRecientes from "@/components/VideosRecientes";
+import Sponsors from "@/components/Sponsors";
 import React from "react";
 
 const Page = () => {
@@ -15,7 +15,7 @@ const Page = () => {
       <h3 className='text-3xl font-semibold'>Comunidad</h3>
       <Comunidad />
       <h3 className='text-3xl font-semibold'>Sponsors</h3>
-      <Sponsor />
+      <Sponsors />
     </main>
   );
 };
