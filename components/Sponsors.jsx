@@ -4,7 +4,7 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <section className='grid grid-cols-3 gap-10 max-w-6xl m-10'>
+    <section className='grid grid-cols-3 gap-10 max-w-6xl m-10 mb-20'>
       <article className='sponsor-gradient rounded-xl'>
         <div className='h-56'>
           <Image

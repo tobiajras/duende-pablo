@@ -13,11 +13,11 @@ const Comunidad = () => {
   });
 
   return (
-    <section className='max-w-6xl m-10 background-blur'>
+    <section className='max-w-6xl m-10 mb-20 background-blur'>
       <div className='overflow-hidden' ref={emblaRef}>
         <div className='flex gap-10'>
-          <article className='flex-[0_0_33%] h-72 rounded-xl relative'>
-            <div className='bg-[#7289D9] h-56 flex items-center justify-center gap-3 rounded-xl'>
+          <article className='flex-[0_0_35%] h-72 rounded-xl relative'>
+            <div className='bg-[#7289D9] h-48 flex items-center justify-center gap-3 rounded-xl'>
               <FaDiscord className='fill-text-primary w-16 h-16' />
               <span className='text-text-primary text-4xl font-bold'>
                 Discord
@@ -32,8 +32,8 @@ const Comunidad = () => {
               </p>
             </div>
           </article>
-          <article className='flex-[0_0_33%] h-72 rounded-xl relative'>
-            <div className='h-56'>
+          <article className='flex-[0_0_35%] h-72 rounded-xl relative'>
+            <div className='h-48'>
               <Image
                 className='w-full h-full object-cover object-top rounded-xl'
                 src='/assets/juegos-comunidad/minecraft-duende-pablo.webp'
@@ -51,8 +51,8 @@ const Comunidad = () => {
               </p>
             </div>
           </article>
-          <article className='flex-[0_0_33%] h-72 rounded-xl relative'>
-            <div className='h-56'>
+          <article className='flex-[0_0_35%] h-72 rounded-xl relative'>
+            <div className='h-48'>
               <Image
                 className='w-full h-full object-cover object-top rounded-xl'
                 src='/assets/juegos-comunidad/rust-duende-pablo.webp'
@@ -70,8 +70,8 @@ const Comunidad = () => {
               </p>
             </div>
           </article>
-          <article className='flex-[0_0_33%] h-72 rounded-xl relative'>
-            <div className='h-56'>
+          <article className='flex-[0_0_35%] h-72 rounded-xl relative'>
+            <div className='h-48'>
               <Image
                 className='w-full h-full object-cover object-top rounded-xl'
                 src='/assets/juegos-comunidad/mu-duende-pablo.webp'

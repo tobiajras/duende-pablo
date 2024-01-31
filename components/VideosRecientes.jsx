@@ -22,7 +22,7 @@ const VideosRecientes = async () => {
   console.log(videos);
 
   return (
-    <section className='max-w-6xl m-10'>
+    <section className='max-w-6xl m-10 mb-20'>
       <div className=''>
         <div className='flex gap-10'>
           <CarouselEmbla videos={videos} />

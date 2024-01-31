@@ -9,12 +9,18 @@ const Page = () => {
   return (
     <main className='flex flex-col items-center min-h-screen'>
       <Home />
-      <h3 className='text-3xl font-semibold items-start'>Videos Recientes</h3>
+      <h3 className='text-3xl font-semibold items-start w-full max-w-6xl'>
+        Videos Recientes
+      </h3>
       <PlaceholderVideosRecientes />
       {/* <VideosRecientes /> */}
-      <h3 className='text-3xl font-semibold'>Comunidad</h3>
+      <h3 className='text-3xl font-semibold items-start w-full max-w-6xl'>
+        Comunidad
+      </h3>
       <Comunidad />
-      <h3 className='text-3xl font-semibold'>Sponsors</h3>
+      <h3 className='text-3xl font-semibold items-start w-full max-w-6xl'>
+        Sponsors
+      </h3>
       <Sponsors />
     </main>
   );

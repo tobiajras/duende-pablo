@@ -210,7 +210,7 @@ const PlaceholderVideosRecientes = () => {
   });
 
   return (
-    <div className='max-w-6xl m-10'>
+    <div className='max-w-6xl m-10 mb-20'>
       <div className='overflow-hidden ' ref={emblaRef}>
         <div className='flex gap-10'>
           {videos.map((video) => (
