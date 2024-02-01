@@ -5,18 +5,18 @@ const Page = () => {
     <section className='flex flex-col items-center'>
       <div className='flex flex-col items-center max-w-6xl gap-20 my-40 mx-10'>
         <article className='flex items-center gap-10'>
-          <div className='flex justify-center w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img1-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
               height={400}
             />
           </div>
-          <div className='flex gap-4 mr-40 w-full'>
-            <div className='bg-primary w-1.5'></div>
-            <div className='py-3'>
+          <div className='flex gap-5'>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Inicios y Pasión por los Videojuegos
               </h4>
@@ -35,8 +35,8 @@ const Page = () => {
         </article>
         <article className='flex items-center gap-10'>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div className='py-3'>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Carrera y Aficiones
               </h4>
@@ -50,9 +50,9 @@ const Page = () => {
               </p>
             </div>
           </div>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img2-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -61,9 +61,9 @@ const Page = () => {
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img3-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -71,8 +71,8 @@ const Page = () => {
             />
           </div>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Inmersión en el Streaming
               </h4>
@@ -91,8 +91,8 @@ const Page = () => {
         </article>
         <article className='flex items-center gap-10'>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Crecimiento y Reconocimiento en Twitch
               </h4>
@@ -107,9 +107,9 @@ const Page = () => {
               </p>
             </div>
           </div>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img4-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -118,9 +118,9 @@ const Page = () => {
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img5-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -128,8 +128,8 @@ const Page = () => {
             />
           </div>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Expansión y Éxito Continuo
               </h4>
@@ -148,8 +148,8 @@ const Page = () => {
         </article>
         <article className='flex items-center gap-10'>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Consolidación y Nuevas Iniciativas
               </h4>
@@ -167,9 +167,9 @@ const Page = () => {
               </p>
             </div>
           </div>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img6-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -178,9 +178,9 @@ const Page = () => {
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div className='w-full'>
+          <div className=''>
             <Image
-              className='grayscale hover:grayscale-0 transition-all'
+              className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
               src='/assets/sobre-mi/img7-sobremi-duende.webp'
               alt='img1-sobremi'
               width={400}
@@ -188,8 +188,8 @@ const Page = () => {
             />
           </div>
           <div className='flex gap-4'>
-            <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='bg-primary w-1.5 rounded-full'></div>
+            <div className='py-3 max-w-lg'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Adaptación y Evolución
               </h4>

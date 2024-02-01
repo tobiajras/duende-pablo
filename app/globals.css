@@ -7,9 +7,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  overflow-x: hidden;
-}
 
 :root {
   --primary: #00b889;
