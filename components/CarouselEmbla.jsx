@@ -13,7 +13,7 @@ const CarouselEmbla = ({ videos }) => {
     <div className='overflow-hidden' ref={emblaRef}>
       <div className='flex gap-10'>
         {videos.map((video) => (
-          <div key={video.id.videoId} className='flex flex-[0_0_23%]'>
+          <div key={video.id.videoId} className='flex flex-[0_0_25%]'>
             <Link
               href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
               target='_blank'
