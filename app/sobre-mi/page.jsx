@@ -5,18 +5,18 @@ const Page = () => {
     <section className='flex flex-col items-center'>
       <div className='flex flex-col items-center max-w-6xl gap-20 my-40 mx-10'>
         <article className='flex items-center gap-10'>
-          <div>
+          <div className='flex justify-center w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img1-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
-          <div className='flex gap-4'>
+          <div className='flex gap-4 mr-40 w-full'>
             <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='py-3'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Inicios y Pasión por los Videojuegos
               </h4>
@@ -36,7 +36,7 @@ const Page = () => {
         <article className='flex items-center gap-10'>
           <div className='flex gap-4'>
             <div className='bg-primary w-1.5'></div>
-            <div>
+            <div className='py-3'>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
                 Carrera y Aficiones
               </h4>
@@ -50,24 +50,24 @@ const Page = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img2-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img3-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
           <div className='flex gap-4'>
@@ -107,41 +107,41 @@ const Page = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img4-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img5-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
           <div className='flex gap-4'>
             <div className='bg-primary w-1.5'></div>
             <div>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
-                Inicios y Pasión por los Videojuegos
+                Expansión y Éxito Continuo
               </h4>
               <p className='mb-2'>
-                Pablo Bayón, más conocido como "el Duende", nació en Buenos
-                Aires en 1986. Desde niño, desarrolló una pasión por los
-                videojuegos, iniciándose con la Super Nintendo.
+                Hacia 2017 y 2018, Pablo experimentó un crecimiento notable,
+                diversificando su contenido con juegos como "Fortnite" y "Realm
+                Royale", y estableciéndose como una figura destacada tanto en
+                Twitch como en YouTube.
               </p>
               <p>
-                A lo largo de su infancia y adolescencia, se interesó en el
-                rock, el arte y, por supuesto, los videojuegos, destacando en
-                títulos como "El diablo" y "Counter Strike 1.6".
+                Su comunidad, conocida como "La Comarca", se expandió
+                rápidamente, reflejando su éxito y popularidad.
               </p>
             </div>
           </div>
@@ -151,55 +151,58 @@ const Page = () => {
             <div className='bg-primary w-1.5'></div>
             <div>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
-                Inicios y Pasión por los Videojuegos
+                Consolidación y Nuevas Iniciativas
               </h4>
               <p className='mb-2'>
-                Pablo Bayón, más conocido como "el Duende", nació en Buenos
-                Aires en 1986. Desde niño, desarrolló una pasión por los
-                videojuegos, iniciándose con la Super Nintendo.
+                Durante 2019 y 2020, Pablo "el Duende" consolidó su presencia en
+                el mundo del streaming. Experimentó con nuevos formatos y
+                colaboraciones, ampliando su alcance más allá de los
+                videojuegos.
               </p>
               <p>
-                A lo largo de su infancia y adolescencia, se interesó en el
-                rock, el arte y, por supuesto, los videojuegos, destacando en
-                títulos como "El diablo" y "Counter Strike 1.6".
+                Su carisma y habilidad para entretener a su audiencia lo
+                llevaron a participar en eventos y proyectos más amplios,
+                reforzando su posición como un influencer prominente en el mundo
+                digital.
               </p>
             </div>
           </div>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img6-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
         </article>
         <article className='flex items-center gap-10'>
-          <div>
+          <div className='w-full'>
             <Image
               className='grayscale hover:grayscale-0 transition-all'
               src='/assets/sobre-mi/img7-sobremi-duende.webp'
               alt='img1-sobremi'
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
           <div className='flex gap-4'>
             <div className='bg-primary w-1.5'></div>
             <div>
               <h4 className='text-xl text-text-primary font-semibold mb-3'>
-                Inicios y Pasión por los Videojuegos
+                Adaptación y Evolución
               </h4>
               <p className='mb-2'>
-                Pablo Bayón, más conocido como "el Duende", nació en Buenos
-                Aires en 1986. Desde niño, desarrolló una pasión por los
-                videojuegos, iniciándose con la Super Nintendo.
+                En los años siguientes, Pablo adaptó su contenido a las
+                tendencias cambiantes y a las demandas de su audiencia. A pesar
+                de los desafíos del entorno digital, mantuvo su relevancia y
+                popularidad, explorando nuevas plataformas y géneros de juegos.
               </p>
               <p>
-                A lo largo de su infancia y adolescencia, se interesó en el
-                rock, el arte y, por supuesto, los videojuegos, destacando en
-                títulos como "El diablo" y "Counter Strike 1.6".
+                Su habilidad para innovar y mantenerse auténtico lo ayudó a
+                seguir siendo una figura respetada y querida en la comunidad de
+                streaming.
               </p>
             </div>
           </div>
