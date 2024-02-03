@@ -29,25 +29,17 @@ const Navbar = () => {
             <li>
               <Link
                 className='hover:text-text-primary transition-colors'
+                href='/eventos'
+              >
+                EVENTOS
+              </Link>
+            </li>
+            <li>
+              <Link
+                className='hover:text-text-primary transition-colors'
                 href='/sobre-mi'
               >
-                SOBRE MÍ
-              </Link>
-            </li>
-            <li>
-              <Link
-                className='hover:text-text-primary transition-colors'
-                href='/comunidad'
-              >
-                COMUNIDAD
-              </Link>
-            </li>
-            <li>
-              <Link
-                className='hover:text-text-primary transition-colors'
-                href='/marcas'
-              >
-                SPONSORS
+                DUENDE
               </Link>
             </li>
           </ul>
