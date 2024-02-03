@@ -8,7 +8,7 @@ import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <footer className='flex justify-center'>
-      <div className='max-w-6xl m-10'>
+      <div className='max-w-6xl m-10 mb-20'>
         <section className='flex gap-20 '>
           <article className='flex flex-col items-center'>
             <div>
@@ -20,7 +20,7 @@ const Footer = () => {
                 height={80}
               />
             </div>
-            <div className='flex gap-4 mt-3'>
+            <div className='flex gap-4 mt-5'>
               <Link
                 className='hover:text-text-primary transition-colors'
                 href='https://www.twitch.tv/duendepablo'
@@ -72,80 +72,36 @@ const Footer = () => {
             </div>
           </article>
           <article>
-            <h6 className='text-text-primary mb-1'>SPONSORS</h6>
-            <ul>
-              <li>
-                <Link
-                  href='https://www.aorus.com/es-ar'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  AORUS
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='https://www.elgato.com/es/es'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  ELGATO
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='https://row.hyperx.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  HYPERX
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='https://karate.com/en/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  KARATECOMBAT
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='https://www.redbull.com/ar-es/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  REDBULL
-                </Link>
-              </li>
-            </ul>
-          </article>
-          <article>
             <h6 className='text-text-primary mb-1'>MENÚ</h6>
             <ul>
               <li>
-                <Link href='/' target='_blank' rel='noopener noreferrer'>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   INICIO
                 </Link>
               </li>
               <li>
-                <Link href='/eventos' target='_blank' rel='noopener noreferrer'>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/eventos'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   EVENTOS
                 </Link>
               </li>
               <li>
                 <Link
+                  className='hover:text-text-primary transition-colors'
                   href='/sombre-mi'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   DUENDE
-                </Link>
-              </li>
-              <li>
-                <Link href='contacto' target='_blank' rel='noopener noreferrer'>
-                  CONTACTO
                 </Link>
               </li>
             </ul>
@@ -154,13 +110,48 @@ const Footer = () => {
             <h6 className='text-text-primary mb-1'>DUENDE</h6>
             <ul>
               <li>
-                <Link href='/' target='_blank' rel='noopener noreferrer'>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   SOBRE MÍ
                 </Link>
               </li>
               <li>
-                <Link href='/eventos' target='_blank' rel='noopener noreferrer'>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/eventos'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   PC
+                </Link>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h6 className='text-text-primary mb-1'>CONTACTO</h6>
+            <ul>
+              <li>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  PONERSE EN CONTACTO
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className='hover:text-text-primary transition-colors'
+                  href='/eventos'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  infoduendegaming@gmail.com
                 </Link>
               </li>
             </ul>

@@ -228,7 +228,7 @@ const PlaceholderVideosRecientes = () => {
                   height={675}
                 />
                 <div className='mt-3'>
-                  <h2 className='text-text-primary text-sm line-clamp-2'>
+                  <h2 className='text-text-primary text-base line-clamp-2'>
                     {video.snippet.title}
                   </h2>
                 </div>
@@ -241,9 +241,9 @@ const PlaceholderVideosRecientes = () => {
                       width={25}
                       height={25}
                     />
-                    <span className='text-xs'>Duende Pablo</span>
+                    <span className='text-sm'>Duende Pablo</span>
                   </div>
-                  <span className='text-xs'>
+                  <span className='text-sm'>
                     • hace {timeSince(video.snippet.publishTime)}
                   </span>
                 </div>

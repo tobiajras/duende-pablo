@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Page = () => {
+const SobreMi = () => {
   return (
     <section className='flex flex-col items-center'>
       <div className='flex flex-col items-center max-w-6xl gap-20 my-40 mx-10'>
@@ -212,4 +212,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default SobreMi;
