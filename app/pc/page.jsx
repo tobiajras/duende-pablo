@@ -274,7 +274,7 @@ const Pc = () => {
               </div>
             </li>
             <li>
-              <div className='h-44 p-5'>
+              <div className='h-44 pb-5'>
                 <Image
                   className='w-full h-full object-contain'
                   src='/assets/pcperifericos/silla-pc-duende.webp'

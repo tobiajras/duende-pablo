@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const SobreMi = () => {
   return (
@@ -21,14 +21,15 @@ const SobreMi = () => {
                 Inicios y Pasión por los Videojuegos
               </h4>
               <p className='mb-2'>
-                Pablo Bayón, más conocido como "el Duende", nació en Buenos
-                Aires en 1986. Desde niño, desarrolló una pasión por los
+                Pablo Bayón, más conocido como &ldquo;el Duende&ldquo;, nació en
+                Buenos Aires en 1986. Desde niño, desarrolló una pasión por los
                 videojuegos, iniciándose con la Super Nintendo.
               </p>
               <p>
                 A lo largo de su infancia y adolescencia, se interesó en el
                 rock, el arte y, por supuesto, los videojuegos, destacando en
-                títulos como "El diablo" y "Counter Strike 1.6".
+                títulos como &ldquo;El diablo&ldquo; y &ldquo;Counter Strike
+                1.6&ldquo;.
               </p>
             </div>
           </div>
@@ -46,7 +47,8 @@ const SobreMi = () => {
               </p>
               <p>
                 Su primer salario como médico lo invirtió en una computadora,
-                con la que mejoró en juegos como "League of Legends" y "Magic".
+                con la que mejoró en juegos como &ldquo;League of Legends&ldquo;
+                y &ldquo;Magic&ldquo;.
               </p>
             </div>
           </div>
@@ -78,13 +80,14 @@ const SobreMi = () => {
               </h4>
               <p className='mb-2'>
                 Al encontrarse jugando solo, Pablo comenzó a explorar el mundo
-                del streaming, influenciado por Twitch y los torneos de "League
-                of Legends".
+                del streaming, influenciado por Twitch y los torneos de
+                &ldquo;League of Legends&ldquo;.
               </p>
               <p>
-                En 2015, comenzó a transmitir en su canal "Duende Gaming", donde
-                jugaba "Hearthstone" y otros títulos, al tiempo que
-                interaccionaba con su creciente comunidad.
+                En 2015, comenzó a transmitir en su canal &ldquo;Duende
+                Gaming&ldquo;, donde jugaba &ldquo;Hearthstone&ldquo; y otros
+                títulos, al tiempo que interaccionaba con su creciente
+                comunidad.
               </p>
             </div>
           </div>
@@ -99,7 +102,8 @@ const SobreMi = () => {
               <p className='mb-2'>
                 Pablo tomó la decisión de dedicarse a tiempo completo al
                 streaming en 2016. Su canal creció significativamente,
-                destacando en juegos como "H1Z1", "Dead by Daylight" y "PUBG".
+                destacando en juegos como &ldquo;H1Z1&ldquo;, &ldquo;Dead by
+                Daylight&ldquo; y &ldquo;PUBG&ldquo;.
               </p>
               <p>
                 Con su estilo de juego agresivo y su habilidad, se convirtió en
@@ -135,13 +139,14 @@ const SobreMi = () => {
               </h4>
               <p className='mb-2'>
                 Hacia 2017 y 2018, Pablo experimentó un crecimiento notable,
-                diversificando su contenido con juegos como "Fortnite" y "Realm
-                Royale", y estableciéndose como una figura destacada tanto en
-                Twitch como en YouTube.
+                diversificando su contenido con juegos como
+                &ldquo;Fortnite&ldquo; y &ldquo;Realm Royale&ldquo;, y
+                estableciéndose como una figura destacada tanto en Twitch como
+                en YouTube.
               </p>
               <p>
-                Su comunidad, conocida como "La Comarca", se expandió
-                rápidamente, reflejando su éxito y popularidad.
+                Su comunidad, conocida como &ldquo;La Comarca&ldquo;, se
+                expandió rápidamente, reflejando su éxito y popularidad.
               </p>
             </div>
           </div>
@@ -154,9 +159,9 @@ const SobreMi = () => {
                 Consolidación y Nuevas Iniciativas
               </h4>
               <p className='mb-2'>
-                Durante 2019 y 2020, Pablo "el Duende" consolidó su presencia en
-                el mundo del streaming. Experimentó con nuevos formatos y
-                colaboraciones, ampliando su alcance más allá de los
+                Durante 2019 y 2020, Pablo &ldquo;el Duende&ldquo; consolidó su
+                presencia en el mundo del streaming. Experimentó con nuevos
+                formatos y colaboraciones, ampliando su alcance más allá de los
                 videojuegos.
               </p>
               <p>
