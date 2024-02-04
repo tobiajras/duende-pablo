@@ -1,12 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
   return (
     <header className='flex justify-center'>
       <div className='flex justify-between items-center max-w-6xl w-full h-24 pt-5 mx-5'>
-        <div className='text-2xl'>
-          <Link className='hover:text-text-primary transition-colors' href='/'>
-            Duende Pablo
+        <div className='h-full'>
+          <Link href='/'>
+            <Image
+              className='h-full w-full'
+              src='/assets/duendeLogoSvg.svg'
+              alt='duende-pablo-logo'
+              width={80}
+              height={80}
+            />
           </Link>
         </div>
         <nav className='flex justify-center'>
