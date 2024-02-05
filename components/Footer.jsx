@@ -1,14 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { FaDiscord, FaTiktok, FaTwitch, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { RiInstagramFill } from "react-icons/ri";
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import { FaDiscord, FaTiktok, FaTwitch, FaYoutube } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { RiInstagramFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
-    <footer className='flex justify-center'>
-      <div className='max-w-6xl m-10 mb-20'>
+    <footer className='flex justify-center border-t-[1px] border-neutral-800 '>
+      <div className='max-w-6xl mx-10 my-10'>
         <section className='flex gap-20 '>
           <article className='flex flex-col items-center'>
             <div>
@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
           </article>
           <article>
-            <h6 className='text-text-primary mb-1'>MENÚ</h6>
+            <h6 className='text-text-primary mb-1'>Menú</h6>
             <ul>
               <li>
                 <Link
@@ -81,7 +81,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  INICIO
+                  Inicio
                 </Link>
               </li>
               <li>
@@ -91,7 +91,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  EVENTOS
+                  Eventos
                 </Link>
               </li>
               <li>
@@ -101,13 +101,13 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  DUENDE
+                  Duende
                 </Link>
               </li>
             </ul>
           </article>
           <article>
-            <h6 className='text-text-primary mb-1'>DUENDE</h6>
+            <h6 className='text-text-primary mb-1'>Duende</h6>
             <ul>
               <li>
                 <Link
@@ -116,7 +116,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  SOBRE MÍ
+                  Sobre mí
                 </Link>
               </li>
               <li>
@@ -126,13 +126,13 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  PC
+                  Pc
                 </Link>
               </li>
             </ul>
           </article>
           <article>
-            <h6 className='text-text-primary mb-1'>CONTACTO</h6>
+            <h6 className='text-text-primary mb-1'>Contacto</h6>
             <ul>
               <li>
                 <Link
@@ -141,7 +141,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  PONERSE EN CONTACTO
+                  Ponerse en contacto
                 </Link>
               </li>
               <li>

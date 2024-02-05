@@ -1,29 +1,35 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import { BsGpuCard } from "react-icons/bs";
-import { BsFillCpuFill } from "react-icons/bs";
-import { BsFillMotherboardFill } from "react-icons/bs";
-import { FaMemory } from "react-icons/fa";
-import { BsSdCardFill } from "react-icons/bs";
+import { BsGpuCard } from 'react-icons/bs';
+import { BsFillCpuFill } from 'react-icons/bs';
+import { BsFillMotherboardFill } from 'react-icons/bs';
+import { FaMemory } from 'react-icons/fa';
+import { BsSdCardFill } from 'react-icons/bs';
 
-import { BsMouseFill } from "react-icons/bs";
-import { BsFillKeyboardFill } from "react-icons/bs";
-import { FaMicrophone } from "react-icons/fa";
-import { MdDeviceHub } from "react-icons/md";
-import { FaDisplay } from "react-icons/fa6";
-import { MdKeyboardAlt } from "react-icons/md";
-import { IoCameraSharp } from "react-icons/io5";
-import { MdCamera } from "react-icons/md";
-import { PiOfficeChairFill } from "react-icons/pi";
+import { BsMouseFill } from 'react-icons/bs';
+import { BsFillKeyboardFill } from 'react-icons/bs';
+import { FaMicrophone } from 'react-icons/fa';
+import { MdDeviceHub } from 'react-icons/md';
+import { FaDisplay } from 'react-icons/fa6';
+import { MdKeyboardAlt } from 'react-icons/md';
+import { IoCameraSharp } from 'react-icons/io5';
+import { MdCamera } from 'react-icons/md';
+import { PiOfficeChairFill } from 'react-icons/pi';
 
 const Pc = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-40 mx-10 flex flex-col gap-20'>
-        <article className='flex'>
-          <div>Especificaciones de Pc</div>
-          <div>
+      <div className='max-w-6xl my-20 mx-10 flex flex-col items-center gap-10'>
+        <article className='flex gap-20'>
+          <div className='m-auto'>
+            <h3 className='text-4xl font-medium'>¿Con qué PC streameo?</h3>
+            <h3 className='text-5xl mt-3 text-text-primary font-semibold'>
+              Hardware y Periféricos
+            </h3>
+          </div>
+          <div className='h-96'>
             <Image
+              className='h-full w-full object-contain'
               src='/assets/pccomponentes/foto-pc-duende.webp'
               alt='foto-pc'
               width={300}

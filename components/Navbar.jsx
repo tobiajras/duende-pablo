@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
                 className='hover:text-text-primary transition-colors'
                 href='/'
               >
-                INICIO
+                Inicio
               </Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 className='hover:text-text-primary transition-colors'
                 href='/eventos'
               >
-                EVENTOS
+                Eventos
               </Link>
             </li>
             <li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 className='hover:text-text-primary transition-colors'
                 href='/sobre-mi'
               >
-                DUENDE
+                Duende
               </Link>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 className='hover:text-text-primary transition-colors'
                 href='/pc'
               >
-                PC
+                Pc
               </Link>
             </li>
           </ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
             className='text-text-primary font-medium background-gradient rounded py-3 px-5 text-lg'
             href='/contacto'
           >
-            CONTACTO
+            Contacto
           </Link>
         </div>
       </div>
