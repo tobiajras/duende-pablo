@@ -19,7 +19,7 @@ import { PiOfficeChairFill } from 'react-icons/pi';
 const Pc = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-20 mx-10 flex flex-col items-center gap-10'>
+      <div className='max-w-6xl my-20 mx-10 flex flex-col items-center gap-20'>
         <article className='flex gap-20'>
           <div className='m-auto'>
             <h3 className='text-4xl font-medium'>¿Con qué PC streameo?</h3>

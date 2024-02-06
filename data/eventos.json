@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/eventos/ubisoft-eventos-duende.webp",
+    "alt": "ubisoft-eventos",
+    "title": "Ubisoft Forward - 2021",
+    "description": "Evento digital repleto de anuncios emociantes de Ubisoft como Rocksmith, Rainbow Six Siege, Far Cry 6, Assassin's Creed Valhalla",
+    "location": "Argentina",
+    "tags": ["Gaming", "Stream", "Premios"]
+  },
+  {
+    "id": 2,
+    "image": "/assets/eventos/coscuawards2020-eventos-duende.webp",
+    "alt": "coscuawards2020-eventos",
+    "title": "Coscu Army Awards - 2020",
+    "description": "El evento de streamers más grande de Argentina, con un pico de más de 1.000.000 de espectadores.",
+    "location": "Argentina",
+    "tags": ["Gaming", "Stream", "Premios"]
+  },
+  {
+    "id": 3,
+    "image": "/assets/eventos/coscuawards2019-eventos-duende.webp",
+    "alt": "coscuawards2019-eventos",
+    "title": "Coscu Army Awards - 2019",
+    "description": "El evento de streamers más grande de Argentina, con un pico de más de 1.000.000 de espectadores.",
+    "location": "Argentina",
+    "tags": ["Gaming", "Stream", "Premios"]
+  },
+  {
+    "id": 4,
+    "image": "/assets/eventos/partypoker-eventos-duende.webp",
+    "alt": "partypoker-eventos",
+    "title": "Party Poker Celebrities Show Match - 2019",
+    "description": "Mesa de famosos integrada, entre otros, por Duende Pablo, PapoMC, Phil Hellmuth, Mike Sexton, Richard Dubini y Renato Nomura",
+    "location": "Brasil",
+    "tags": ["Poker", "Millions", "Torneo"]
+  },
+  {
+    "id": 5,
+    "image": "/assets/eventos/fornite-eventos-duende.webp",
+    "alt": "fornite-eventos",
+    "title": "Stars Battle Royale - 2019",
+    "description": "+100 youtubers, influencers y jugadores profesionales para competir por el trofeo.",
+    "location": "Estados Unidos",
+    "tags": ["Gaming", "Torneo", "Fornite"]
+  },
+  {
+    "id": 6,
+    "image": "/assets/eventos/blizzcon-eventos-duende.webp",
+    "alt": "blizzcon-eventos",
+    "title": "Blizzcon - 2018",
+    "description": "Convención celebrada por Blizzard Entertainment para celebrar sus franquicias más importantes.",
+    "location": "Estados Unidos",
+    "tags": ["Gaming", "Warcraft", "Comunidad"]
+  }
+]

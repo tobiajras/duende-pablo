@@ -16,7 +16,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <nav className='flex justify-center'>
+        <nav className='hidden md:flex justify-center'>
           <ul className='flex gap-8 text-text-secondary text-lg'>
             <li className=''>
               <Link

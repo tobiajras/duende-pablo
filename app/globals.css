@@ -29,6 +29,16 @@
     hsla(165, 100%, 36%, 1) 0%,
     hsla(175, 100%, 24%, 1) 100%
   );
+  transition: all 10s;
+}
+
+.background-gradient:hover {
+  background: linear-gradient(
+    135deg,
+    hsla(165, 100%, 36%, 1) 0%,
+    hsla(175, 100%, 24%, 1) 50%
+  );
+  transition: all 10s;
 }
 
 .background-gradient-glass {

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "link": "https://www.aorus.com/es-ar",
+    "image": "/assets/sponsor/aorus-sponsor-duende.webp",
+    "alt": "aorus-sponsor",
+    "title": "Aorus",
+    "description": "Usa el codigo #Duende-pablo para obtener 15% de descuento"
+  },
+  {
+    "id": 2,
+    "link": "https://www.elgato.com/es/es",
+    "image": "/assets/sponsor/elgato-sponsor-duende.webp",
+    "alt": "elgato-sponsor",
+    "title": "Elgato",
+    "description": "Usa el codigo #Duende-pablo para obtener 15% de descuento"
+  },
+  {
+    "id": 3,
+    "link": "https://row.hyperx.com/",
+    "image": "/assets/sponsor/hyperx-sponsor-duende.webp",
+    "alt": "hyperx-sponsor",
+    "title": "HyperX",
+    "description": "Usa el codigo #Duende-pablo para obtener 15% de descuento"
+  },
+  {
+    "id": 4,
+    "link": "https://karate.com/en/",
+    "image": "/assets/sponsor/karatecombat-sponsor-duende.webp",
+    "alt": "karatecombat-sponsor",
+    "title": "Karate Combat",
+    "description": "Usa el codigo #Duende-pablo para obtener 15% de descuento"
+  },
+  {
+    "id": 5,
+    "link": "https://www.redbull.com/ar-es/",
+    "image": "/assets/sponsor/redbull-sponsor-duende.webp",
+    "alt": "redbull-sponsor",
+    "title": "Redbull",
+    "description": "Usa el codigo #Duende-pablo para obtener 15% de descuento"
+  }
+]

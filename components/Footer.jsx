@@ -7,13 +7,13 @@ import { RiInstagramFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
-    <footer className='flex justify-center border-t-[1px] border-neutral-800 '>
-      <div className='max-w-6xl mx-10 my-10'>
-        <section className='flex gap-20 '>
+    <footer className='flex md:justify-center border-t-[1px] border-neutral-800 '>
+      <div className='max-w-6xl m-4 md:m-10 w-full'>
+        <section className='flex flex-col md:flex-row gap-4 md:gap-20 '>
           <article className='flex flex-col items-center'>
             <div>
               <Image
-                className='w-32'
+                className='w-24 md:w-32'
                 src='/assets/duendeLogoSvg.svg'
                 alt='duende-logo'
                 width={80}
@@ -78,8 +78,6 @@ const Footer = () => {
                 <Link
                   className='hover:text-text-primary transition-colors'
                   href='/'
-                  target='_blank'
-                  rel='noopener noreferrer'
                 >
                   Inicio
                 </Link>
@@ -88,8 +86,6 @@ const Footer = () => {
                 <Link
                   className='hover:text-text-primary transition-colors'
                   href='/eventos'
-                  target='_blank'
-                  rel='noopener noreferrer'
                 >
                   Eventos
                 </Link>
@@ -97,9 +93,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='/sombre-mi'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/sobre-mi'
                 >
                   Duende
                 </Link>
@@ -112,9 +106,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='/'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/sobre-mi'
                 >
                   Sobre mí
                 </Link>
@@ -122,9 +114,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='/eventos'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href='/pc'
                 >
                   Pc
                 </Link>
@@ -137,7 +127,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='/'
+                  href='https://gmail.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -147,7 +137,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='/eventos'
+                  href='https://gmail.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

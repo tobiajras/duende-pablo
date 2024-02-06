@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/sobre-mi/img1-sobremi-duende.webp",
+    "alt": "img1-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Inicios y Pasión por los Videojuegos",
+    "description": [
+      "Pablo Bayón, más conocido como “el Duende”, nació en Buenos Aires en 1986. Desde niño, desarrolló una pasión por los videojuegos, iniciándose con la Super Nintendo.",
+      "A lo largo de su infancia y adolescencia, se interesó en el rock, el arte y, por supuesto, los videojuegos, destacando en títulos como “El diablo” y “Counter Strike 1.6”."
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/assets/sobre-mi/img2-sobremi-duende.webp",
+    "alt": "img2-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Carrera y Aficiones",
+    "description": [
+      "A pesar de estudiar y trabajar en medicina, Pablo mantuvo sus pasatiempos, como Magic, el arte y los juegos competitivos.",
+      "Su primer salario como médico lo invirtió en una computadora, con la que mejoró en juegos como “League of Legends” y “Magic”."
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/assets/sobre-mi/img3-sobremi-duende.webp",
+    "alt": "img3-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Inmersión en el Streaming",
+    "description": [
+      "Al encontrarse jugando solo, Pablo comenzó a explorar el mundo del streaming, influenciado por Twitch y los torneos de “League of Legends”.",
+      "En 2015, comenzó a transmitir en su canal “Duende Gaming”, donde jugaba “Hearthstone” y otros títulos, al tiempo que interaccionaba con su creciente comunidad."
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/assets/sobre-mi/img4-sobremi-duende.webp",
+    "alt": "img4-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Crecimiento y Reconocimiento en Twitch",
+    "description": [
+      "Pablo tomó la decisión de dedicarse a tiempo completo al streaming en 2016. Su canal creció significativamente, destacando en juegos como “H1Z1”, “Dead by Daylight” y “PUBG”.",
+      "Con su estilo de juego agresivo y su habilidad, se convirtió en uno de los streamers más reconocidos de Argentina."
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/assets/sobre-mi/img5-sobremi-duende.webp",
+    "alt": "img5-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Expansión y Éxito Continuo",
+    "description": [
+      "Hacia 2017 y 2018, Pablo experimentó un crecimiento notable, diversificando su contenido con juegos como “Fortnite” y “Realm Royale”, y estableciéndose como una figura destacada tanto en Twitch como en YouTube.",
+      "Su comunidad, conocida como “La Comarca”, se expandió rápidamente, reflejando su éxito y popularidad."
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/assets/sobre-mi/img6-sobremi-duende.webp",
+    "alt": "img6-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Consolidación y Nuevas Iniciativas",
+    "description": [
+      "Durante 2019 y 2020, Pablo “el Duende” consolidó su presencia en el mundo del streaming. Experimentó con nuevos formatos y colaboraciones, ampliando su alcance más allá de los videojuegos.",
+      "Su carisma y habilidad para entretener a su audiencia lo llevaron a participar en eventos y proyectos más amplios, reforzando su posición como un influencer prominente en el mundo digital."
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/assets/sobre-mi/img7-sobremi-duende.webp",
+    "alt": "img7-sobremi",
+    "imageWidth": 400,
+    "imageHeight": 400,
+    "title": "Adaptación y Evolución",
+    "description": [
+      "En los años siguientes, Pablo adaptó su contenido a las tendencias cambiantes y a las demandas de su audiencia. A pesar de los desafíos del entorno digital, mantuvo su relevancia y popularidad, explorando nuevas plataformas y géneros de juegos.",
+      "Su habilidad para innovar y mantenerse auténtico lo ayudó a seguir siendo una figura respetada y querida en la comunidad de streaming."
+    ]
+  }
+]
