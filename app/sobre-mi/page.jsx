@@ -12,8 +12,9 @@ const SobreMi = () => {
               key={historiaItem.id}
               className='flex flex-col md:flex-row items-center gap-5 md:gap-10'
             >
-              <div className=''>
+              <div>
                 <Image
+                  priority={idx < 2 ? true : false}
                   className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-md md:rounded-xl'
                   src={historiaItem.image}
                   alt={historiaItem.alt}
@@ -50,8 +51,9 @@ const SobreMi = () => {
                   ))}
                 </div>
               </div>
-              <div className=''>
+              <div>
                 <Image
+                  priority={idx < 2 ? true : false}
                   className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
                   src={historiaItem.image}
                   alt={historiaItem.alt}

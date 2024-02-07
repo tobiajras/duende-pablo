@@ -76,6 +76,7 @@ const Home = () => {
       </article>
       <article>
         <Image
+          priority={true}
           className='w-28 md:w-[200px] md:h-[300px] object-contain'
           src='/assets/funko-duende-pablo.webp'
           alt='funko-duende-pablo'

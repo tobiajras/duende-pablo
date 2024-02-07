@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "src": "/assets/pccomponentes/placavideo-pc-duende.webp",
+    "alt": "placavideo-pc",
+    "title": "ZOTAC GeForce RTX 2070 Super Mini 8GB GDDR6 256-Bit 14Gbps",
+    "description": "Placa de Video",
+    "icon": "BsGpuCard"
+  },
+  {
+    "id": 2,
+    "src": "/assets/pccomponentes/procesador-pc-duende.webp",
+    "alt": "procesador-pc",
+    "title": "Intel Core i9-10900K 10 Cores, up to 5.3 GHz Unlocked",
+    "description": "Procesador",
+    "icon": "BsFillCpuFill"
+  },
+  {
+    "id": 3,
+    "src": "/assets/pccomponentes/placamadre-pc-duende.webp",
+    "alt": "placamadre-pc",
+    "title": "Gigabyte H470I AORUS PRO AX, Mini ITX/DDR4/WIFI 6",
+    "description": "Placa Madre",
+    "icon": "BsFillMotherboardFill"
+  },
+  {
+    "id": 4,
+    "src": "/assets/pccomponentes/ram-pc-duende.webp",
+    "alt": "ram-pc",
+    "title": "Corsair Dominator Platinum RGB 32GB (4x8GB) DDR4 3600",
+    "description": "Memoria Ram",
+    "icon": "FaMemory"
+  },
+  {
+    "id": 5,
+    "src": "/assets/pccomponentes/ssd-pc-duende.webp",
+    "alt": "ssd-pc",
+    "title": "1TB WD Blue SN550 NVMe Internal SSD - Gen3 x4 PCIe 8Gb/s",
+    "description": "Memoria SSD",
+    "icon": "BsSdCardFill"
+  }
+]

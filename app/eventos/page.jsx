@@ -8,10 +8,11 @@ const Eventos = () => {
   return (
     <section className='flex justify-center'>
       <div className='max-w-6xl my-20 md:my-40 mx-4 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20'>
-        {eventos.map((evento) => (
+        {eventos.map((evento, idx) => (
           <article key={evento.id} className='max-w-md'>
             <div className='h-44 md:h-72'>
               <Image
+                priority={idx < 2 ? true : false}
                 className='w-full h-full object-cover rounded-md md:rounded-xl'
                 src={evento.image}
                 alt={evento.alt}

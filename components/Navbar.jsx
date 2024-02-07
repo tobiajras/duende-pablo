@@ -8,6 +8,7 @@ const Navbar = () => {
         <div className='h-full'>
           <Link href='/'>
             <Image
+              priority={true}
               className='h-full w-full'
               src='/assets/duendeLogoSvg.svg'
               alt='duende-pablo-logo'

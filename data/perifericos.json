@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "/assets/pcperifericos/mouse-pc-duende.webp",
+    "imageAlt": "mouse-pc",
+    "title": "Mouse Inalámbrico Logitech G Pro X Superlight",
+    "description": "Mouse",
+    "icon": "BsMouseFill"
+  },
+  {
+    "id": 2,
+    "imageSrc": "/assets/pcperifericos/teclado-pc-duende.webp",
+    "imageAlt": "teclado-pc",
+    "title": "Teclado Mecanico Gamer Logitech G Pro X",
+    "description": "Teclado",
+    "icon": "BsFillKeyboardFill"
+  },
+  {
+    "id": 3,
+    "imageSrc": "/assets/pcperifericos/microfono-pc-duende.webp",
+    "imageAlt": "microfono-pc",
+    "title": "Microfono Shure Sm7b Cardioid Dynamic",
+    "description": "Micrófono",
+    "icon": "FaMicrophone"
+  },
+  {
+    "id": 4,
+    "imageSrc": "/assets/pcperifericos/rode-pc-duende.webp",
+    "imageAlt": "rode-pc",
+    "title": "RODE PSA1 Brazo de estudio profesional",
+    "description": "Brazo",
+    "icon": "MdDeviceHub"
+  },
+  {
+    "id": 5,
+    "imageSrc": "/assets/pcperifericos/monitor-pc-duende.webp",
+    "imageAlt": "monitor-pc",
+    "title": "Monitor Gamer 27p Asus",
+    "description": "Monitor",
+    "icon": "FaDisplay"
+  },
+  {
+    "id": 6,
+    "imageSrc": "/assets/pcperifericos/streamdeck-pc-duende.webp",
+    "imageAlt": "streamdeck-pc",
+    "title": "Stream Deck Classis - 15 customisable LCD keys",
+    "description": "Stream Deck",
+    "icon": "MdKeyboardAlt"
+  },
+  {
+    "id": 7,
+    "imageSrc": "/assets/pcperifericos/camara-pc-duende.webp",
+    "imageAlt": "camara-pc",
+    "title": "Cámara Digital Mirrorless Full Frame ILCE-7C A7C",
+    "description": "Cámara",
+    "icon": "IoCameraSharp"
+  },
+  {
+    "id": 8,
+    "imageSrc": "/assets/pcperifericos/lente-pc-duende.webp",
+    "imageAlt": "lente-pc",
+    "title": "Lente de zoom gran angular G Master FE 16-35 mm",
+    "description": "Lente",
+    "icon": "MdCamera"
+  },
+  {
+    "id": 9,
+    "imageSrc": "/assets/pcperifericos/silla-pc-duende.webp",
+    "imageAlt": "silla-pc",
+    "title": "Silla Gamer Corsair T3 Rush Gris Carbon",
+    "description": "Silla",
+    "icon": "PiOfficeChairFill"
+  }
+]

@@ -15,8 +15,8 @@ const Comunidad = () => {
   });
 
   return (
-    <section className='max-w-6xl background-blur w-full p-4 md:p-10 pb-10 md:pb-20'>
-      <div className='overflow-hidden' ref={emblaRef}>
+    <section className='flex justify-center background-blur w-full p-4 md:p-10 pb-10 md:pb-20'>
+      <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
         <div className='flex gap-4 md:gap-10'>
           {comunidad.map((comunidadItem) => (
             <Link
