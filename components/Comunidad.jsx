@@ -15,7 +15,7 @@ const Comunidad = () => {
   });
 
   return (
-    <section className='flex justify-center background-blur w-full p-4 md:p-10 pb-10 md:pb-20'>
+    <section className='flex justify-center background-blur w-full p-6 sm:p-8 md:p-10 pb-10 md:pb-20'>
       <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
         <div className='flex gap-4 md:gap-10'>
           {comunidad.map((comunidadItem) => (
@@ -24,10 +24,10 @@ const Comunidad = () => {
               href={comunidadItem.link}
               target='_blank'
               rel='noopener noreferrer'
-              className='flex-[0_0_55%] md:flex-[0_0_35%] rounded-md md:rounded-xl relative comunidad-gradient'
+              className='flex-[0_0_55%] sm:flex-[0_0_35%] md:flex-[0_0_35%] rounded-md md:rounded-xl relative comunidad-gradient'
             >
               {comunidadItem.image ? (
-                <div className='h-24 md:h-48'>
+                <div className='h-20 sm:h-28 md:h-36 lg:h-44'>
                   <Image
                     className='w-full h-full object-contain object-top drop-shadow-2xl'
                     src={comunidadItem.image}
@@ -38,7 +38,7 @@ const Comunidad = () => {
                 </div>
               ) : (
                 <div className='flex justify-center'>
-                  <div className='h-24 md:h-44 rounded-full md:mt-4'>
+                  <div className='h-20 sm:h-28 md:h-36 lg:h-44 rounded-full md:mt-4'>
                     <FaDiscord className='fill-text-primary w-full h-full bg-[#7289D9] rounded-full p-4 md:p-7' />
                   </div>
                 </div>

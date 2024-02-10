@@ -7,17 +7,17 @@ import eventos from '@/data/eventos.json';
 const Eventos = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-20 md:my-40 mx-4 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20'>
+      <div className='max-w-6xl my-20 md:my-40 mx-6 sm:mx-8 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20'>
         {eventos.map((evento, idx) => (
           <article key={evento.id} className='max-w-md'>
-            <div className='h-44 md:h-72'>
+            <div className=''>
               <Image
                 priority={idx < 2 ? true : false}
-                className='w-full h-full object-cover rounded-md md:rounded-xl'
+                className='h-52 sm:h-72 md:h-60 lg:h-72 object-cover object-center rounded-md md:rounded-xl'
                 src={evento.image}
                 alt={evento.alt}
                 width={450}
-                height={300}
+                height={400}
               />
             </div>
             <h4 className='mt-3 md:mt-5 text-lg md:text-2xl text-text-primary font-semibold'>
@@ -31,10 +31,10 @@ const Eventos = () => {
               <span>{evento.location}</span>
             </div>
             <ul className='flex gap-3 md:gap-5 mt-2 md:mt-3'>
-              {evento.tags.map((tag, idx) => (
+              {evento.tags.map((tag, eventoIdx) => (
                 <li
-                  key={idx}
-                  className='text-primary font-semibold text-sm sm:text-base bg-primary/25 py-1 sm:py-2 px-3 sm:px-5 rounded'
+                  key={eventoIdx}
+                  className='text-primary font-semibold text-sm md:text-base bg-primary/25 py-1 md:py-2 px-3 md:px-5 rounded'
                 >
                   {tag}
                 </li>

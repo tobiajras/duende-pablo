@@ -19,15 +19,17 @@ import { PiOfficeChairFill } from 'react-icons/pi';
 const Pc = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-20 mx-10 flex flex-col items-center gap-10 md:gap-20'>
-        <article className='flex gap-20'>
-          <div className='m-auto'>
-            <h3 className='text-4xl font-medium'>¿Con qué PC streameo?</h3>
-            <h3 className='text-5xl mt-3 text-text-primary font-semibold'>
+      <div className='max-w-6xl my-10 md:my-20 mx-6 sm:mx-8 md:mx-10 flex flex-col items-center gap-10 md:gap-20'>
+        <article className='flex justify-center gap-5 sm:gap-10 md:gap-20'>
+          <div className='flex flex-col justify-center '>
+            <h3 className='text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium'>
+              ¿Con qué PC streameo?
+            </h3>
+            <h3 className='text-xl sm:text-3xl md:text-4xl lg:text-5xl mt-3 text-text-primary font-semibold whitespace-nowrap'>
               Hardware y Periféricos
             </h3>
           </div>
-          <div className='h-96'>
+          <div className='max-h-48 md:max-h-56 lg:max-h-72'>
             <Image
               priority={true}
               className='h-full w-full object-contain'
@@ -39,8 +41,10 @@ const Pc = () => {
           </div>
         </article>
         <article>
-          <h4 className='text-3xl font-semibold mb-4 md:mb-10'>Componentes</h4>
-          <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
+          <h4 className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'>
+            Componentes
+          </h4>
+          <ul className='grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-10 md:grid-cols-3 md:gap-x-10 md:gap-y-28 lg:grid-cols-4'>
             <li>
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
@@ -52,7 +56,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
+              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
                 ZOTAC GeForce RTX 2070 Super Mini 8GB GDDR6 256-Bit 14Gbps
               </h4>
               <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
@@ -138,8 +142,10 @@ const Pc = () => {
           </ul>
         </article>
         <article>
-          <h4 className='text-3xl font-semibold mb-10'>Periféricos</h4>
-          <ul className='grid grid-cols-4 gap-x-10 gap-y-28'>
+          <h4 className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'>
+            Periféricos
+          </h4>
+          <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
             <li>
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image

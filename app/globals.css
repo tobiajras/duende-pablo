@@ -29,7 +29,6 @@
     hsla(165, 100%, 36%, 1) 0%,
     hsla(175, 100%, 24%, 1) 100%
   );
-  transition: all 10s;
 }
 
 .background-gradient:hover {
@@ -38,7 +37,6 @@
     hsla(165, 100%, 36%, 1) 0%,
     hsla(175, 100%, 24%, 1) 50%
   );
-  transition: all 10s;
 }
 
 .background-gradient-glass {
@@ -85,7 +83,7 @@
   height: 100px;
   background-color: var(--primary-light);
   filter: blur(120px);
-  top: 0;
+  top: 300px;
   right: 0;
   z-index: -999;
   overflow: hidden;

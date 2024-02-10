@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className='flex justify-center'>
-      <div className='flex justify-between items-center max-w-6xl w-full h-24 pt-5 mx-5'>
+    <header className='flex justify-center fixed top-0 left-0 right-0 bg-background-primary z-50'>
+      <div className='flex justify-between items-center max-w-6xl w-full h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
         <div className='h-full'>
           <Link href='/'>
             <Image

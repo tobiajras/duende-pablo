@@ -5,10 +5,10 @@ import sponsors from '@/data/sponsors.json';
 
 const Sponsors = () => {
   return (
-    <section className='grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10 max-w-6xl m-4 lg:m-10 mb-10 lg:mb-20'>
+    <section className='grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10 max-w-6xl m-6 sm:m-8 lg:m-10 mb-10 lg:mb-20'>
       {sponsors.map((sponsor) => (
         <article key={sponsor.id}>
-          <div className='h-32 lg:h-48'>
+          <div className='h-24 sm:h-40 md:h-48 lg:h-52'>
             <Link href={sponsor.link} target='_blank' rel='noopener noreferrer'>
               <Image
                 className='w-full h-full object-cover object-top rounded-md lg:rounded-xl'
