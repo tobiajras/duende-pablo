@@ -38,7 +38,7 @@ const Comunidad = () => {
                 </div>
               ) : (
                 <div className='flex justify-center'>
-                  <div className='h-20 sm:h-28 md:h-36 lg:h-44 rounded-full md:mt-4'>
+                  <div className='h-20 sm:h-28 md:h-36 lg:h-44 w-auto rounded-full md:mt-4'>
                     <FaDiscord className='fill-text-primary w-full h-full bg-[#7289D9] rounded-full p-4 md:p-7' />
                   </div>
                 </div>
