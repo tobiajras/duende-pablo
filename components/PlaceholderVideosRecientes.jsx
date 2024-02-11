@@ -61,7 +61,7 @@ const PlaceholderVideosRecientes = () => {
                   height={675}
                 />
                 <div className='mt-3'>
-                  <h2 className='text-text-primary text-xs sm:text-sm md:text-base line-clamp-2'>
+                  <h2 className='text-text-primary text-sm md:text-base line-clamp-2'>
                     {video.snippet.title}
                   </h2>
                 </div>

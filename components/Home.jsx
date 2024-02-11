@@ -15,12 +15,12 @@ const Home = () => {
     <section className='flex justify-center max-w-6xl gap-5 md:gap-20 mt-32 mb-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
       <article className=''>
         <div>
-          <span className='text-xs md:text-xl font-semibold'>La Comarca</span>
+          <span className='text-sm md:text-xl font-semibold'>La Comarca</span>
         </div>
-        <h2 className='text-text-primary text-2xl md:text-7xl font-bold'>
+        <h2 className='text-text-primary text-3xl md:text-7xl font-bold'>
           Duende Pablo
         </h2>
-        <p className='text-sm md:text-2xl mt-2 md:mt-3 font-medium'>
+        <p className='text-sm sm:text-xl md:text-2xl mt-2 md:mt-3 font-medium max-w-72 sm:max-w-96 md:max-w-xl'>
           Streamer Argentino en Twitch y creador de contenido en Youtube
         </p>
         <div className='flex gap-2 mt-4 md:gap-5 md:mt-10'>

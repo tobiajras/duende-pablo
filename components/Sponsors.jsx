@@ -5,7 +5,7 @@ import sponsors from '@/data/sponsors.json';
 
 const Sponsors = () => {
   return (
-    <section className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-10 max-w-6xl m-6 sm:m-8 md:m-10 mb-10 lg:mb-20'>
+    <section className='grid grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 md:gap-10 max-w-6xl m-6 sm:m-8 md:m-10 mb-10 lg:mb-20'>
       {sponsors.map((sponsor) => (
         <article key={sponsor.id}>
           <div className='h-24 sm:h-40 md:h-48 lg:h-52'>
