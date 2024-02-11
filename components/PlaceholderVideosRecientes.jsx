@@ -4,7 +4,24 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { motion } from 'framer-motion';
+
 import videos from '@/data/placeholderVideos.json';
+
+const videosVariants = {
+  inactive: {
+    opacity: 0,
+    y: 30,
+  },
+  active: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeOut',
+      duration: 0.5,
+    },
+  },
+};
 
 function timeSince(date) {
   const seconds = Math.floor((new Date() - new Date(date)) / 1000);
@@ -43,7 +60,14 @@ const PlaceholderVideosRecientes = () => {
       <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
         <div className='flex gap-4 md:gap-10'>
           {videos.map((video, idx) => (
-            <div
+            <motion.div
+              variants={videosVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
               key={video.id.videoId}
               className='flex flex-[0_0_40%] md:flex-[0_0_25%]'
             >
@@ -83,7 +107,7 @@ const PlaceholderVideosRecientes = () => {
                   </span>
                 </div>
               </Link>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,3 +1,7 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 import Image from 'next/image';
 
 import { BsGpuCard } from 'react-icons/bs';
@@ -15,6 +19,21 @@ import { MdKeyboardAlt } from 'react-icons/md';
 import { IoCameraSharp } from 'react-icons/io5';
 import { MdCamera } from 'react-icons/md';
 import { PiOfficeChairFill } from 'react-icons/pi';
+
+const pcVariants = {
+  inactive: {
+    opacity: 0,
+    y: 30,
+  },
+  active: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeOut',
+      duration: 0.5,
+    },
+  },
+};
 
 const Pc = () => {
   return (
@@ -45,7 +64,15 @@ const Pc = () => {
             Componentes
           </h4>
           <ul className='grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-10 md:grid-cols-3 md:gap-x-10 md:gap-y-28 lg:grid-cols-4'>
-            <li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   priority={true}
@@ -63,8 +90,16 @@ const Pc = () => {
                 <BsGpuCard className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Placa de Video</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   priority={true}
@@ -82,8 +117,16 @@ const Pc = () => {
                 <BsFillCpuFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Procesador</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   priority={true}
@@ -101,8 +144,16 @@ const Pc = () => {
                 <BsFillMotherboardFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Placa Madre</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   priority={true}
@@ -120,8 +171,16 @@ const Pc = () => {
                 <FaMemory className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Memoria Ram</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -138,7 +197,7 @@ const Pc = () => {
                 <BsSdCardFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Memoria SSD</span>
               </div>
-            </li>
+            </motion.li>
           </ul>
         </article>
         <article>
@@ -146,7 +205,15 @@ const Pc = () => {
             Periféricos
           </h4>
           <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
-            <li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -163,8 +230,16 @@ const Pc = () => {
                 <BsMouseFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Mouse</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -181,8 +256,16 @@ const Pc = () => {
                 <BsFillKeyboardFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Teclado</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -199,8 +282,16 @@ const Pc = () => {
                 <FaMicrophone className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Micrófono</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -217,8 +308,16 @@ const Pc = () => {
                 <MdDeviceHub className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Brazo</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -235,8 +334,16 @@ const Pc = () => {
                 <FaDisplay className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Monitor</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -253,8 +360,16 @@ const Pc = () => {
                 <MdKeyboardAlt className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Stream Deck</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -271,8 +386,16 @@ const Pc = () => {
                 <IoCameraSharp className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Cámara</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-32 md:h-44 p-3 md:p-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -289,8 +412,16 @@ const Pc = () => {
                 <MdCamera className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Lente</span>
               </div>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              variants={pcVariants}
+              initial='inactive'
+              whileInView='active'
+              viewport={{
+                once: true,
+                margin: '0px 0px -200px 0px',
+              }}
+            >
               <div className='h-44 pb-5'>
                 <Image
                   className='w-full h-full object-contain'
@@ -307,7 +438,7 @@ const Pc = () => {
                 <PiOfficeChairFill className='w-5 h-5 md:w-6 md:h-6' />
                 <span>Silla</span>
               </div>
-            </li>
+            </motion.li>
           </ul>
         </article>
       </div>

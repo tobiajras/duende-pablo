@@ -23,14 +23,14 @@ const Home = () => {
         <p className='text-sm sm:text-xl md:text-2xl mt-2 md:mt-3 font-medium max-w-72 sm:max-w-96 md:max-w-xl'>
           Streamer Argentino en Twitch y creador de contenido en Youtube
         </p>
-        <div className='flex gap-2 mt-4 md:gap-5 md:mt-10'>
+        <div className='flex gap-4 mt-4 md:gap-5 md:mt-10'>
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://www.twitch.tv/duendepablo'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitch className='md:w-7 md:h-7' />
+            <FaTwitch className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
           <Link
             className='hover:text-text-primary transition-colors'
@@ -38,7 +38,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <RiInstagramFill className='md:w-7 md:h-7' />
+            <RiInstagramFill className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
           <Link
             className='hover:text-text-primary transition-colors'
@@ -46,7 +46,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaYoutube className='md:w-7 md:h-7' />
+            <FaYoutube className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
           <Link
             className='hover:text-text-primary transition-colors'
@@ -54,7 +54,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTiktok className='md:w-7 md:h-7' />
+            <FaTiktok className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
           <Link
             className='hover:text-text-primary transition-colors'
@@ -62,7 +62,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaXTwitter className='md:w-7 md:h-7' />
+            <FaXTwitter className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
           <Link
             className='hover:text-text-primary transition-colors'
@@ -70,7 +70,7 @@ const Home = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaDiscord className='md:w-7 md:h-7' />
+            <FaDiscord className='w-5 h-5 md:w-7 md:h-7' />
           </Link>
         </div>
       </article>

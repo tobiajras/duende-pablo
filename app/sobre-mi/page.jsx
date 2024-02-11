@@ -35,13 +35,6 @@ const sobreMiLeftVariants = {
   },
 };
 
-const imageGrayscaleVariants = {
-  initial: {},
-  animate: {
-    filter: 'grayscale(0%)',
-  },
-};
-
 const SobreMi = () => {
   return (
     <section className='flex flex-col items-center'>
