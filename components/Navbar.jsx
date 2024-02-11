@@ -3,8 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { motion } from 'framer-motion';
-
 import { useState } from 'react';
 
 import { HiMenu } from 'react-icons/hi';
@@ -14,23 +12,6 @@ import { FaAward } from 'react-icons/fa';
 import { AiFillHome } from 'react-icons/ai';
 import { HiUser } from 'react-icons/hi2';
 import { FaDisplay } from 'react-icons/fa6';
-
-const navVariants = {
-  inactive: {
-    opacity: 0,
-    right: -100,
-    transition: {
-      duration: 0.3,
-    },
-  },
-  active: {
-    opacity: 1,
-    right: 0,
-    transition: {
-      duration: 0.3,
-    },
-  },
-};
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,13 +38,12 @@ const Navbar = () => {
             <IoClose className='w-8 h-8' />
           )}
         </div>
-        <motion.nav
-          variants={navVariants}
-          initial='inactive'
-          animate={!isOpen && window.innerWidth < 768 ? 'inactive' : 'active'}
+        <nav
           className={`${
-            !isOpen && 'hidden md:block'
-          } absolute md:relative top-24 right-0 bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto flex md:justify-center`}
+            !isOpen
+              ? '-right-full opacity-0 md:opacity-100'
+              : 'right-0 opacity-100'
+          } absolute md:relative top-24 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto flex md:justify-center`}
         >
           <ul className='flex flex-col gap-3 md:flex-row md:gap-8 text-text-secondary text-xl md:text-lg'>
             <li className=''>
@@ -107,14 +87,13 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-        </motion.nav>
-        <motion.div
-          variants={navVariants}
-          initial='inactive'
-          animate={!isOpen && window.innerWidth < 768 ? 'inactive' : 'active'}
+        </nav>
+        <div
           className={`${
-            !isOpen && 'hidden md:block'
-          } absolute top-[275px] right-0 w-1/2 md:w-auto p-6 md:p-auto md:relative md:flex md:top-auto`}
+            !isOpen
+              ? '-right-full opacity-0 md:opacity-100'
+              : 'right-0 opacity-100'
+          } absolute top-[275px] transition-all duration-[400ms] w-1/2 md:w-auto p-6 md:p-auto md:relative md:flex md:right-auto md:top-auto`}
         >
           <Link
             onClick={() => setIsOpen(false)}
@@ -123,7 +102,7 @@ const Navbar = () => {
           >
             Contacto
           </Link>
-        </motion.div>
+        </div>
       </div>
     </header>
   );
