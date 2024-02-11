@@ -24,7 +24,7 @@ const contactVariant = {
 const Contacto = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
+      <div className='max-w-6xl mt-32 mb-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
         <motion.article
           variants={contactVariant}
           initial='inactive'

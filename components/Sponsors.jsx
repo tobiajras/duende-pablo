@@ -23,7 +23,7 @@ const Sponsors = () => {
             <h4 className='mt-4 text-text-primary md:text-xl lg:text-2xl font-medium'>
               {sponsor.title}
             </h4>
-            <p className='mt-1 text-xs sm:text-sm md:text-base lg:text-lg'>
+            <p className='mt-1 text-sm md:text-base lg:text-lg'>
               {sponsor.description}
             </p>
           </div>

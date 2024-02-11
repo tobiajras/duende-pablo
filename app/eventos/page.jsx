@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { FaLocationDot } from 'react-icons/fa6';
 
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import eventos from '@/data/eventos.json';
 import { useEffect, useRef, useState } from 'react';
@@ -55,7 +55,7 @@ const Eventos = () => {
 
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-20 md:my-40 mx-6 sm:mx-8 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20'>
+      <div className='max-w-6xl mt-32 mb-20 md:my-40 mx-6 sm:mx-8 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20'>
         {eventos.map((evento, idx) => (
           <article
             ref={(el) => (eventRefs.current[idx] = el)}

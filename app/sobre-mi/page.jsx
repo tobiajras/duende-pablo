@@ -45,7 +45,7 @@ const imageGrayscaleVariants = {
 const SobreMi = () => {
   return (
     <section className='flex flex-col items-center'>
-      <div className='flex flex-col items-center max-w-6xl gap-10 md:gap-20 my-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
+      <div className='flex flex-col items-center max-w-6xl gap-10 md:gap-20 mt-32 mb-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
         {historia.map((historiaItem, idx) =>
           idx % 2 === 0 ? (
             <motion.article
