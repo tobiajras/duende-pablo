@@ -12,7 +12,7 @@ import { FaDiscord } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <section className='flex justify-center max-w-6xl gap-5 md:gap-20 my-10 md:my-40 mx-6 sm:mx-8 md:mx-10'>
+    <section className='flex justify-center max-w-6xl gap-5 md:gap-20 my-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
       <article className=''>
         <div>
           <span className='text-xs md:text-xl font-semibold'>La Comarca</span>

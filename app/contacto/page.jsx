@@ -1,12 +1,35 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 import { HiUser } from 'react-icons/hi2';
 import { TbMailFilled } from 'react-icons/tb';
 import { BsChatLeftTextFill } from 'react-icons/bs';
+
+const contactVariant = {
+  inactive: {
+    opacity: 0,
+    y: 30,
+  },
+  active: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeOut',
+      duration: 0.5,
+    },
+  },
+};
 
 const Contacto = () => {
   return (
     <section className='flex justify-center'>
       <div className='max-w-6xl my-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
-        <article>
+        <motion.article
+          variants={contactVariant}
+          initial='inactive'
+          animate='active'
+        >
           <form className='flex flex-col p-8 sm:p-14 lg:p-20 border border-neutral-800  rounded-xl '>
             <h4 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-primary mb-1'>
               Ponerse en <span className='text-primary'>contacto</span>
@@ -67,7 +90,7 @@ const Contacto = () => {
               Enviar
             </button>
           </form>
-        </article>
+        </motion.article>
       </div>
     </section>
   );

@@ -19,7 +19,7 @@ import { PiOfficeChairFill } from 'react-icons/pi';
 const Pc = () => {
   return (
     <section className='flex justify-center'>
-      <div className='max-w-6xl my-10 md:my-20 mx-6 sm:mx-8 md:mx-10 flex flex-col items-center gap-10 md:gap-20'>
+      <div className='max-w-6xl my-20 md:my-40 mx-6 sm:mx-8 md:mx-10 flex flex-col items-center gap-10 md:gap-20'>
         <article className='flex justify-center gap-5 sm:gap-10 md:gap-20'>
           <div className='flex flex-col justify-center '>
             <h3 className='text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium'>

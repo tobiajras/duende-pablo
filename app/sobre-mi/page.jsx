@@ -49,20 +49,20 @@ const SobreMi = () => {
         {historia.map((historiaItem, idx) =>
           idx % 2 === 0 ? (
             <motion.article
+              key={historiaItem.id}
               variants={sobreMiRightVariants}
               initial='initial'
               whileInView='animate'
               viewport={{
                 once: true,
-                margin: '0px 0px -500px 0px',
+                margin: '0px 0px -200px 0px',
               }}
-              key={historiaItem.id}
               className='flex flex-col md:flex-row items-center gap-5 md:gap-10'
             >
               <div>
                 <Image
                   priority={idx < 2 ? true : false}
-                  className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-md md:rounded-xl'
+                  className='w-full h-full object-contain rounded-md md:rounded-xl'
                   src={historiaItem.image}
                   alt={historiaItem.alt}
                   width={400}
@@ -72,13 +72,13 @@ const SobreMi = () => {
               <div className='flex gap-3 md:gap-5'>
                 <div className='bg-primary w-1.5 '></div>
                 <div className='py-1 md:py-3 max-w-lg'>
-                  <h4 className='md:text-xl text-text-primary font-semibold mb-2 md:mb-3'>
+                  <h4 className='text-lg md:text-xl lg:text-2xl text-text-primary font-semibold mb-2 md:mb-3'>
                     {historiaItem.title}
                   </h4>
                   {historiaItem.description.map((historiaP, itemIdx) => (
                     <p
                       key={itemIdx}
-                      className='mb-1 md:mb-2 text-sm sm:text-base'
+                      className='mb-1 md:mb-2 text-sm md:text-base lg:text-lg'
                     >
                       {historiaP}
                     </p>
@@ -88,25 +88,26 @@ const SobreMi = () => {
             </motion.article>
           ) : (
             <motion.article
+              key={historiaItem.id}
               variants={sobreMiLeftVariants}
               initial='initial'
               whileInView='animate'
               viewport={{
                 once: true,
-                margin: '0px 0px -500px 0px',
+                margin: '0px 0px -200px 0px',
               }}
               className='flex flex-col-reverse md:flex-row items-center gap-5 md:gap-10'
             >
               <div className='flex gap-3 md:gap-5'>
                 <div className='bg-primary w-1.5'></div>
                 <div className='py-1 md:py-3 max-w-lg'>
-                  <h4 className='md:text-xl text-text-primary font-semibold mb-2 md:mb-3'>
+                  <h4 className='text-lg md:text-xl lg:text-2xl text-text-primary font-semibold mb-2 md:mb-3'>
                     {historiaItem.title}
                   </h4>
                   {historiaItem.description.map((historiaP, itemIdx) => (
                     <p
                       key={itemIdx}
-                      className='mb-1 md:mb-2 text-sm sm:text-base'
+                      className='mb-1 md:mb-2 text-sm md:text-base lg:text-lg'
                     >
                       {historiaP}
                     </p>
@@ -116,7 +117,7 @@ const SobreMi = () => {
               <div>
                 <Image
                   priority={idx < 2 ? true : false}
-                  className='w-full h-full object-contain grayscale hover:grayscale-0 transition duration-500 rounded-xl'
+                  className='w-full h-full object-contain rounded-xl'
                   src={historiaItem.image}
                   alt={historiaItem.alt}
                   width={400}

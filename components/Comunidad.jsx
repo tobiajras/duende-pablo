@@ -44,11 +44,11 @@ const Comunidad = () => {
                 </div>
               )}
               <div className='text-text-primary p-4 md:p-6'>
-                <h4 className='text-base md:text-xl font-medium'>
+                <h4 className='text-base md:text-xl lg:text-2xl font-medium'>
                   <span className='text-primary-light mr-1'>#</span>
                   {comunidadItem.title}
                 </h4>
-                <p className='mt-1 md:mt-2 text-xs md:text-lg'>
+                <p className='mt-1 md:mt-2 text-xs sm:text-sm md:text-base lg:text-lg'>
                   {comunidadItem.description}
                 </p>
               </div>
