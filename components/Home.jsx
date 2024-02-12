@@ -7,14 +7,25 @@ const Home = () => {
   return (
     <section className='flex justify-center max-w-6xl gap-5 md:gap-20 mt-32 mb-10 md:mt-64 md:mb-40 mx-6 sm:mx-8 md:mx-10'>
       <article className=''>
-        <div>
-          <span className='text-sm md:text-xl font-semibold'>La Comarca</span>
+        <div className='flex items-center gap-2'>
+          <svg
+            stroke='currentColor'
+            fill='currentColor'
+            stroke-width='0'
+            viewBox='0 0 384 512'
+            height='1em'
+            width='1em'
+            xmlns='http://www.w3.org/2000/svg'
+          >
+            <path d='M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z'></path>
+          </svg>
+          <span className='text-sm md:text-xl font-semibold'>Argentina</span>
         </div>
         <h2 className='text-text-primary text-3xl md:text-5xl lg:text-7xl font-bold'>
           Duende Pablo
         </h2>
         <p className='text-sm sm:text-xl md:text-xl lg:text-2xl mt-2 md:mt-3 font-medium max-w-72 sm:max-w-96 md:max-w-xl'>
-          Streamer Argentino en Twitch y creador de contenido en Youtube
+          Streamer en Twitch y creador de contenido en Youtube
         </p>
         <div className='flex gap-4 mt-4 md:gap-5 md:mt-10'>
           <Link

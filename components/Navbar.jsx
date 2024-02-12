@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className='flex justify-center fixed top-0 left-0 right-0 bg-background-primary z-50'>
+    <header className='flex justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
       <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
         <div className='h-full'>
           <Link href='/' onClick={() => setIsOpen(false)}>
@@ -62,7 +62,7 @@ const Navbar = () => {
             !isOpen
               ? '-right-full opacity-0 md:opacity-100'
               : 'right-0 opacity-100'
-          } absolute md:relative hidden top-20 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto md:flex md:justify-center`}
+          } absolute md:relative top-20 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto md:flex md:justify-center`}
         >
           <ul className='flex flex-col gap-3 md:flex-row md:gap-8 text-text-secondary text-xl md:text-lg'>
             <li className=''>
