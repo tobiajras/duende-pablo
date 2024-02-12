@@ -31,7 +31,7 @@ const Navbar = () => {
               stroke-width='0'
               viewBox='0 0 20 20'
               aria-hidden='true'
-              class='w-8 h-8'
+              class='w-9 h-9'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -48,7 +48,7 @@ const Navbar = () => {
               fill='currentColor'
               stroke-width='0'
               viewBox='0 0 512 512'
-              class='w-8 h-8'
+              class='w-9 h-9'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -62,7 +62,7 @@ const Navbar = () => {
             !isOpen
               ? '-right-full opacity-0 md:opacity-100'
               : 'right-0 opacity-100'
-          } absolute md:relative top-20 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto flex md:justify-center`}
+          } absolute md:relative hidden top-20 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto md:flex md:justify-center`}
         >
           <ul className='flex flex-col gap-3 md:flex-row md:gap-8 text-text-secondary text-xl md:text-lg'>
             <li className=''>

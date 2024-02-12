@@ -5,15 +5,15 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <section className='flex justify-center max-w-6xl gap-5 md:gap-20 mt-40 mb-20 md:mt-64 md:mb-40 mx-6 sm:mx-8 md:mx-10'>
+    <section className='flex justify-center max-w-6xl gap-5 md:gap-20 mt-32 mb-10 md:mt-64 md:mb-40 mx-6 sm:mx-8 md:mx-10'>
       <article className=''>
         <div>
           <span className='text-sm md:text-xl font-semibold'>La Comarca</span>
         </div>
-        <h2 className='text-text-primary text-3xl md:text-7xl font-bold'>
+        <h2 className='text-text-primary text-3xl md:text-5xl lg:text-7xl font-bold'>
           Duende Pablo
         </h2>
-        <p className='text-sm sm:text-xl md:text-2xl mt-2 md:mt-3 font-medium max-w-72 sm:max-w-96 md:max-w-xl'>
+        <p className='text-sm sm:text-xl md:text-xl lg:text-2xl mt-2 md:mt-3 font-medium max-w-72 sm:max-w-96 md:max-w-xl'>
           Streamer Argentino en Twitch y creador de contenido en Youtube
         </p>
         <div className='flex gap-4 mt-4 md:gap-5 md:mt-10'>
@@ -142,8 +142,8 @@ const Home = () => {
       <article>
         <Image
           priority={true}
-          className='w-28 md:w-[200px] md:h-[300px] object-contain'
-          src='/assets/funko-duende-pablo.webp'
+          className='w-28 md:w-[200px] md:h-[320px] object-contain'
+          src='/assets/personaje-duende.webp'
           alt='funko-duende-pablo'
           width={200}
           height={300}
