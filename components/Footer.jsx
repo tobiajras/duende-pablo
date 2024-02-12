@@ -137,7 +137,7 @@ const Footer = () => {
               <li>
                 <Link
                   className='hover:text-text-primary transition-colors'
-                  href='https://gmail.com/'
+                  href='mailto:infoduendegaming@gmail.com'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

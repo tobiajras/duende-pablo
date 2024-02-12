@@ -48,7 +48,7 @@ const SobreMi = () => {
               whileInView='animate'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
               className='flex flex-col md:flex-row items-center gap-5 md:gap-10'
             >
@@ -87,7 +87,7 @@ const SobreMi = () => {
               whileInView='animate'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
               className='flex flex-col-reverse md:flex-row items-center gap-5 md:gap-10'
             >

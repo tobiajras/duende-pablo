@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <header className='flex justify-center fixed top-0 left-0 right-0 bg-background-primary z-50'>
-      <div className='flex justify-between items-center max-w-6xl w-full h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
+      <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
         <div className='h-full'>
           <Link href='/' onClick={() => setIsOpen(false)}>
             <Image
@@ -43,7 +43,7 @@ const Navbar = () => {
             !isOpen
               ? '-right-full opacity-0 md:opacity-100'
               : 'right-0 opacity-100'
-          } absolute md:relative top-24 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto flex md:justify-center`}
+          } absolute md:relative top-20 transition-all duration-[400ms] bg-background-primary p-6 md:p-auto md:top-auto md:right-auto h-screen w-1/2 md:w-auto md:h-auto flex md:justify-center`}
         >
           <ul className='flex flex-col gap-3 md:flex-row md:gap-8 text-text-secondary text-xl md:text-lg'>
             <li className=''>
@@ -93,7 +93,7 @@ const Navbar = () => {
             !isOpen
               ? '-right-full opacity-0 md:opacity-100'
               : 'right-0 opacity-100'
-          } absolute top-[275px] transition-all duration-[400ms] w-1/2 md:w-auto p-6 md:p-auto md:relative md:flex md:right-auto md:top-auto`}
+          } absolute top-64 transition-all duration-[400ms] w-1/2 md:w-auto p-6 md:p-auto md:relative md:flex md:right-auto md:top-auto`}
         >
           <Link
             onClick={() => setIsOpen(false)}

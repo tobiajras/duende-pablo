@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import videos from '@/data/placeholderVideos.json';
+import Title from './Title';
 
 const videosVariants = {
   inactive: {
@@ -56,62 +57,67 @@ const PlaceholderVideosRecientes = () => {
   });
 
   return (
-    <div className='flex justify-center w-full p-6 sm:p-8 pb-10 md:p-10 md:pb-20'>
-      <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
-        <div className='flex gap-4 md:gap-10'>
-          {videos.map((video, idx) => (
-            <motion.div
-              variants={videosVariants}
-              initial='inactive'
-              whileInView='active'
-              viewport={{
-                once: true,
-                margin: '0px 0px -200px 0px',
-              }}
-              key={video.id.videoId}
-              className='flex flex-[0_0_40%] md:flex-[0_0_25%]'
-            >
-              <Link
-                href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-                target='_blank'
-                rel='noopener noreferrer'
+    <motion.section
+      variants={videosVariants}
+      initial='inactive'
+      whileInView='active'
+      viewport={{
+        once: true,
+        margin: '0px 0px -300px 0px',
+      }}
+      className='flex flex-col w-full'
+    >
+      <Title sectionTitle='Videos Recientes' />
+      <div className='flex justify-center w-full p-6 sm:p-8 pb-10 md:p-10 md:pb-20'>
+        <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
+          <div className='flex gap-4 md:gap-10'>
+            {videos.map((video, idx) => (
+              <div
+                key={video.id.videoId}
+                className='flex flex-[0_0_40%] md:flex-[0_0_25%]'
               >
-                <Image
-                  priority={idx < 4 ? true : false}
-                  className=' object-cover object-center rounded-lg'
-                  src={video.snippet.thumbnails.default.url}
-                  alt={video.snippet.title}
-                  width={1200}
-                  height={675}
-                />
-                <div className='mt-3'>
-                  <h2 className='text-text-primary text-sm md:text-base line-clamp-2'>
-                    {video.snippet.title}
-                  </h2>
-                </div>
-                <div className='flex gap-2 items-center mt-2'>
-                  <div className='flex items-center gap-2'>
-                    <Image
-                      className='rounded-full w-5 h-5'
-                      alt='canal-duende-pablo'
-                      src='/assets/canal-duende-pablo.webp'
-                      width={25}
-                      height={25}
-                    />
-                    <span className='hidden sm:block text-xs md:text-sm'>
-                      Duende Pablo
+                <Link
+                  href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Image
+                    priority={idx < 4 ? true : false}
+                    className=' object-cover object-center rounded-lg'
+                    src={video.snippet.thumbnails.default.url}
+                    alt={video.snippet.title}
+                    width={1200}
+                    height={675}
+                  />
+                  <div className='mt-3'>
+                    <h2 className='text-text-primary text-sm md:text-base line-clamp-2'>
+                      {video.snippet.title}
+                    </h2>
+                  </div>
+                  <div className='flex gap-2 items-center mt-2'>
+                    <div className='flex items-center gap-2'>
+                      <Image
+                        className='rounded-full w-5 h-5'
+                        alt='canal-duende-pablo'
+                        src='/assets/canal-duende-pablo.webp'
+                        width={25}
+                        height={25}
+                      />
+                      <span className='hidden sm:block text-xs md:text-sm'>
+                        Duende Pablo
+                      </span>
+                    </div>
+                    <span className='text-xs md:text-sm'>
+                      • hace {timeSince(video.snippet.publishTime)}
                     </span>
                   </div>
-                  <span className='text-xs md:text-sm'>
-                    • hace {timeSince(video.snippet.publishTime)}
-                  </span>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </motion.section>
   );
 };
 

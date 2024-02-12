@@ -60,9 +60,18 @@ const Pc = () => {
           </div>
         </article>
         <article>
-          <h4 className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'>
+          <motion.h4
+            variants={pcVariants}
+            initial='inactive'
+            whileInView='active'
+            viewport={{
+              once: true,
+              margin: '0px 0px -340px 0px',
+            }}
+            className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'
+          >
             Componentes
-          </h4>
+          </motion.h4>
           <ul className='grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-10 md:grid-cols-3 md:gap-x-10 md:gap-y-28 lg:grid-cols-4'>
             <motion.li
               variants={pcVariants}
@@ -70,7 +79,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -97,7 +106,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -124,7 +133,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -151,7 +160,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -178,7 +187,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -201,9 +210,18 @@ const Pc = () => {
           </ul>
         </article>
         <article>
-          <h4 className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'>
+          <motion.h4
+            variants={pcVariants}
+            initial='inactive'
+            whileInView='active'
+            viewport={{
+              once: true,
+              margin: '0px 0px -340px 0px',
+            }}
+            className='text-xl md:text-3xl font-semibold mb-4 md:mb-10'
+          >
             Periféricos
-          </h4>
+          </motion.h4>
           <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
             <motion.li
               variants={pcVariants}
@@ -211,7 +229,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -237,7 +255,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -263,7 +281,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -289,7 +307,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -315,7 +333,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -341,7 +359,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -367,7 +385,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -393,7 +411,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-32 md:h-44 p-3 md:p-5'>
@@ -419,7 +437,7 @@ const Pc = () => {
               whileInView='active'
               viewport={{
                 once: true,
-                margin: '0px 0px -200px 0px',
+                margin: '0px 0px -300px 0px',
               }}
             >
               <div className='h-44 pb-5'>
