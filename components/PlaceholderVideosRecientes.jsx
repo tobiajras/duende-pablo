@@ -63,7 +63,6 @@ const PlaceholderVideosRecientes = () => {
       whileInView='active'
       viewport={{
         once: true,
-        margin: '0px 0px -300px 0px',
       }}
       className='flex flex-col w-full'
     >

@@ -25,19 +25,21 @@ const sponsorsVariants = {
 
 const Sponsors = () => {
   return (
-    <motion.section className='flex flex-col w-full'>
-      <motion.h3
+    <section className='flex flex-col items-center w-full'>
+      <motion.div
         variants={sponsorsVariants}
         initial='inactive'
         whileInView='active'
         viewport={{
           once: true,
-          margin: '0px 0px -340px 0px',
+          margin: '0px 0px -240px 0px',
         }}
-        className='w-full text-xl md:text-3xl font-semibold items-start max-w-6xl mx-6 sm:mx-8 md:mx-10'
+        className='w-full flex justify-center'
       >
-        Sponsors
-      </motion.h3>
+        <h3 className='w-full text-xl md:text-3xl font-semibold items-start max-w-6xl mx-6 sm:mx-8 md:mx-10'>
+          Sponsors
+        </h3>
+      </motion.div>
       <article className='grid grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 md:gap-10 max-w-6xl m-6 sm:m-8 md:m-10 mb-10 lg:mb-20'>
         {sponsors.map((sponsor) => (
           <motion.article
@@ -46,7 +48,7 @@ const Sponsors = () => {
             whileInView='active'
             viewport={{
               once: true,
-              margin: '0px 0px -300px 0px',
+              margin: '0px 0px -200px 0px',
             }}
             key={sponsor.id}
           >
@@ -76,7 +78,7 @@ const Sponsors = () => {
           </motion.article>
         ))}
       </article>
-    </motion.section>
+    </section>
   );
 };
 
