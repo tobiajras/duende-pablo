@@ -1,6 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useState } from 'react';
+
+import emailjs from '@emailjs/browser';
 
 const contactVariant = {
   inactive: {
@@ -18,6 +21,36 @@ const contactVariant = {
 };
 
 const Contacto = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const [loading, setLoading] = useState(false);
+  const [sent, setSent] = useState(false);
+
+  const clearForm = () => {
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .sendForm(
+        'service_c7apltv',
+        'template_zt7z3oe',
+        e.target,
+        'SKmrufFHM6omcRFXz'
+      )
+      .then(clearForm)
+      .then(setLoading(false))
+      .then(setSent(true))
+      .catch((error) => console.log(error));
+  };
+
   return (
     <section className='flex justify-center'>
       <div className='max-w-6xl mt-32 mb-20 md:my-40 mx-6 sm:mx-8 md:mx-10'>
@@ -26,7 +59,10 @@ const Contacto = () => {
           initial='inactive'
           animate='active'
         >
-          <form className='flex flex-col p-8 sm:p-14 lg:p-20 border border-neutral-800  rounded-xl '>
+          <form
+            onSubmit={sendEmail}
+            className='flex flex-col p-8 sm:p-14 lg:p-20 border border-neutral-800 rounded-xl '
+          >
             <h4 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-text-primary mb-1'>
               Ponerse en <span className='text-primary'>contacto</span>
             </h4>
@@ -57,10 +93,14 @@ const Contacto = () => {
                 </svg>
               </span>
               <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                autoComplete='off'
+                name='user_name'
                 className=' text-text-primary text-base sm:text-lg bg-[#191B20] outline-none w-full '
                 type='text'
                 id='nombre'
-                name='nombre'
                 placeholder='Nombre y apellido'
               />
             </div>
@@ -95,10 +135,14 @@ const Contacto = () => {
                 </svg>
               </span>
               <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                name='user_email'
+                required
+                autoComplete='off'
                 className=' text-text-primary text-base sm:text-lg bg-[#191B20] outline-none w-full'
                 type='email'
                 id='email'
-                name='email'
                 placeholder='Correo electrónico'
               />
             </div>
@@ -107,10 +151,13 @@ const Contacto = () => {
             </label>
             <div className='relative'>
               <textarea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                name='user_message'
+                required
+                autoComplete='off'
                 className='w-full h-full text-text-primary text-base sm:text-lg indent-8 spacing py-3 px-2 rounded-md bg-[#191B20] outline-none border border-neutral-800'
                 placeholder='Mensaje'
-                name='mensaje-form'
-                id='mensaje-form'
                 cols='30'
                 rows='5'
               ></textarea>
@@ -130,10 +177,13 @@ const Contacto = () => {
               </span>
             </div>
             <button
-              className='mt-5 text-text-primary text-lg sm:text-xl py-3 px-5 rounded-md font-semibold background-gradient placeholder-text-primary outline-none'
+              disabled={sent && true}
+              className={`${
+                sent && ' opacity-80'
+              } mt-5 text-text-primary text-lg sm:text-xl py-3 px-5 rounded-md font-semibold background-gradient placeholder-text-primary outline-none`}
               type='submit'
             >
-              Enviar
+              {loading ? 'Enviando...' : sent ? 'Enviado!' : 'Enviar'}
             </button>
           </form>
         </motion.article>

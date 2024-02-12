@@ -32,7 +32,7 @@ const Pc = () => {
               Hardware y Periféricos
             </h3>
           </div>
-          <div className='max-h-48 md:max-h-56 lg:max-h-72'>
+          <div className='max-h-48 sm:h-48 sm:max-h-max md:h-56 lg:h-72'>
             <Image
               priority={true}
               className='h-full w-full object-contain'

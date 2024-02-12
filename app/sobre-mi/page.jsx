@@ -50,9 +50,9 @@ const SobreMi = () => {
                 once: true,
                 margin: '0px 0px -200px 0px',
               }}
-              className='flex flex-col md:flex-row items-center gap-5 md:gap-10'
+              className='flex flex-col md:flex-row items-center gap-5 lg:gap-10'
             >
-              <div>
+              <div className='min-w-[288px] sm:min-w-max sm:w-[450px] md:w-80 lg:w-[450px]'>
                 <Image
                   priority={idx < 2 ? true : false}
                   className='w-full h-full object-contain rounded-md md:rounded-xl'
@@ -89,7 +89,7 @@ const SobreMi = () => {
                 once: true,
                 margin: '0px 0px -200px 0px',
               }}
-              className='flex flex-col-reverse md:flex-row items-center gap-5 md:gap-10'
+              className='flex flex-col-reverse md:flex-row items-center gap-5 lg:gap-10'
             >
               <div className='flex gap-3 md:gap-5'>
                 <div className='bg-primary w-1.5'></div>

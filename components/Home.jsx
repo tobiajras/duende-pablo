@@ -20,6 +20,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://www.twitch.tv/duendepablo'
+            aria-label='ir a Twitch'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -39,6 +40,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://www.instagram.com/duendegaming/'
+            aria-label='ir a Instagram'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -58,6 +60,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://www.youtube.com/c/DuendeGaming'
+            aria-label='ir a Youtube'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -77,6 +80,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://www.tiktok.com/es/'
+            aria-label='ir a Tiktok'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -96,6 +100,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://twitter.com/DuendeGaming'
+            aria-label='ir a Twitter'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -115,6 +120,7 @@ const Home = () => {
           <Link
             className='hover:text-text-primary transition-colors'
             href='https://discord.com/invite/duende'
+            aria-label='ir a Discord'
             target='_blank'
             rel='noopener noreferrer'
           >
