@@ -1,6 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
-import CarouselEmbla from "./CarouselEmbla";
+import CarouselEmbla from './CarouselEmbla';
+import PlaceholderVideosRecientes from './PlaceholderVideosRecientes';
 
 export async function getYoutubeVideos() {
   const apiKey = process.env.YOUTUBE_API_KEY;
@@ -13,22 +14,19 @@ export async function getYoutubeVideos() {
     const { data } = response;
     return data.items;
   } catch (err) {
-    throw new Error("An error ocurred while fetching the videos: ", err);
+    // throw new Error('An error ocurred while fetching the videos: ', err);
   }
 }
 
 const VideosRecientes = async () => {
   const videos = await getYoutubeVideos();
-  console.log(videos);
 
-  return (
-    <section className='max-w-6xl m-10 mb-20'>
-      <div className=''>
-        <div className='flex gap-10'>
-          <CarouselEmbla videos={videos} />
-        </div>
-      </div>
+  return videos ? (
+    <section className='flex flex-col items-center w-full'>
+      <CarouselEmbla videos={videos} />
     </section>
+  ) : (
+    <PlaceholderVideosRecientes />
   );
 };
 

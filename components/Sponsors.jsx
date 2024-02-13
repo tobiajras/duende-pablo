@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import sponsors from '@/data/sponsors.json';
-import Title from './Title';
 
 const sponsorsVariants = {
   inactive: {

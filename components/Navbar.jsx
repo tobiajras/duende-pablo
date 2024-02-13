@@ -165,7 +165,7 @@ const Navbar = () => {
         >
           <Link
             onClick={() => setIsOpen(false)}
-            className='text-text-primary font-medium bg-primary-dark hover:bg-primary transition-colors  rounded py-3 px-5 text-lg w-full flex justify-center md:w-auto'
+            className='text-text-primary font-medium bg-primary-dark hover:bg-primary transition-colors rounded py-3 px-5 text-lg w-full flex justify-center md:w-auto'
             href='/contacto'
           >
             Contacto

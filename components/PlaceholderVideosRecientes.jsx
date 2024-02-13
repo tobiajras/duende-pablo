@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import videos from '@/data/placeholderVideos.json';
-import Title from './Title';
 
 const videosVariants = {
   inactive: {
@@ -66,7 +65,11 @@ const PlaceholderVideosRecientes = () => {
       }}
       className='flex flex-col w-full'
     >
-      <Title sectionTitle='Videos Recientes' />
+      <div className='w-full flex justify-center'>
+        <h3 className='w-full text-xl md:text-3xl font-semibold items-start max-w-6xl mx-6 sm:mx-8 md:mx-10'>
+          Videos Recientes
+        </h3>
+      </div>
       <div className='flex justify-center w-full p-6 sm:p-8 pb-10 md:p-10 md:pb-20'>
         <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
           <div className='flex gap-4 md:gap-10'>

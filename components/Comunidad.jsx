@@ -71,7 +71,7 @@ const Comunidad = () => {
                     </div>
                   ) : (
                     <div className='flex justify-center'>
-                      <div className='md:mt-4'>
+                      <div>
                         <svg
                           stroke='currentColor'
                           fill='currentColor'

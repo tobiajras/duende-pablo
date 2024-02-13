@@ -1,21 +1,16 @@
-import dynamic from 'next/dynamic';
-
-const Home = dynamic(() => import('@/components/Home'));
-const Comunidad = dynamic(() => import('@/components/Comunidad'), {
-  ssr: false,
-});
-const PlaceholderVideosRecientes = dynamic(() =>
-  import('@/components/PlaceholderVideosRecientes')
-);
-const VideosRecientes = dynamic(() => import('@/components/VideosRecientes'));
-const Sponsors = dynamic(() => import('@/components/Sponsors'), { ssr: false });
+import Home from '@/components/Home';
+import Comunidad from '@/components/Comunidad';
+// import PlaceholderVideosRecientes from '@/components/PlaceholderVideosRecientes';
+import VideosRecientes from '@/components/VideosRecientes';
+import Sponsors from '@/components/Sponsors';
+import React from 'react';
 
 const Page = () => {
   return (
     <main className='flex flex-col items-center min-h-screen'>
       <Home />
-      <PlaceholderVideosRecientes />
-      {/* <VideosRecientes /> */}
+      {/* <PlaceholderVideosRecientes /> */}
+      <VideosRecientes />
       <Comunidad />
       <Sponsors />
     </main>
