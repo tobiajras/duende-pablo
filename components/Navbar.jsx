@@ -9,9 +9,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className='flex justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
+    <header className='flex md:justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
       <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
-        <div className='h-full w-auto'>
+        <div className='h-full'>
           <Link href='/' onClick={() => setIsOpen(false)}>
             <Image
               priority={true}
