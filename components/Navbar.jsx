@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header className='flex justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
       <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
-        <div className='h-full'>
+        <div className='h-full w-auto'>
           <Link href='/' onClick={() => setIsOpen(false)}>
             <Image
               priority={true}
@@ -161,7 +161,7 @@ const Navbar = () => {
             !isOpen
               ? '-right-full opacity-0 md:opacity-100'
               : 'right-0 opacity-100'
-          } absolute top-64 transition-all duration-[400ms] w-1/2 md:w-auto p-6 md:p-auto md:relative md:flex md:right-auto md:top-auto`}
+          } absolute top-64 transition-all duration-[400ms] w-1/2 md:w-auto p-6 md:p-0 md:relative md:flex md:right-auto md:top-auto`}
         >
           <Link
             onClick={() => setIsOpen(false)}
