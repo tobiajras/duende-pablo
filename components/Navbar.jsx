@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link className='w-full' href='/' onClick={() => setIsOpen(false)}>
             <Image
               priority={true}
-              className='h-full w-full object-contain'
+              className='h-full w-full object-contain object-left'
               src='/assets/duendeLogoSvg.svg'
               alt='duende-pablo-logo'
               width={80}
