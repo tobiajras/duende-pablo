@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header className='flex md:justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
       <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
-        <div className='h-full'>
+        <div className='h-full w-full flex justify-start md:w-auto'>
           <Link href='/' onClick={() => setIsOpen(false)}>
             <Image
               priority={true}
@@ -23,7 +23,10 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div onClick={() => setIsOpen(!isOpen)} className='md:hidden relative '>
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className='w-full flex justify-end md:w-auto md:hidden relative '
+        >
           {!isOpen ? (
             <svg
               stroke='currentColor'

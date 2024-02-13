@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className='flex justify-center max-w-6xl gap-5 md:gap-20 mt-32 mb-10 md:mt-64 md:mb-40 mx-6 sm:mx-8 md:mx-10'>
       <article className=''>
-        <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-1 sm:gap-2'>
           <svg
             stroke='currentColor'
             fill='currentColor'
