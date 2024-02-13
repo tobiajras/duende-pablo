@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         />
         <meta property='og:url' content='https://duende-pablo.vercel.app/' />
         <meta property='og:type' content='website' />
-        <meta property='og:image' content='/assets/inicio-og-duende.png' />
+        {/* <meta property='og:image' content='/assets/inicio-og-duende.png' /> */}
 
         <meta
           property='twitter:site'
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           property='twitter:description'
           content='Creador de contenido de Twitch y Youtube - Argentina'
         />
-        <meta property='twitter:image' content='/assets/inicio-og-duende.png' />
+        {/* <meta property='twitter:image' content='/assets/inicio-og-duende.png' /> */}
       </Head>
       <body
         className={`${assistant.className} bg-background-primary background-blur text-text-secondary`}
