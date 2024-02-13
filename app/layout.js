@@ -7,13 +7,6 @@ import Footer from '@/components/Footer';
 // const inter = Inter({ subsets: ["latin"] });
 const assistant = Assistant({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Duende Pablo - Streamer Argentino',
-  description: 'Creador de contenido de Twitch y Youtube - Argentina',
-  openGraph: {
-    images: '/inicio-og-duende.png',
-  },
-};
 // title: 'Duende Pablo - Streamer Argentino',
 // description: 'Creador de contenido de Twitch y Youtube - Argentina',
 
