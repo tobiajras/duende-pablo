@@ -26,10 +26,7 @@ export default function RootLayout({ children }) {
         />
         <meta property='og:url' content='https://duende-pablo.vercel.app/' />
         <meta property='og:type' content='website' />
-        <meta
-          property='og:image'
-          content='public/assets/inicio-og-duende.webp'
-        />
+        <meta property='og:image' content='/assets/inicio-og-duende.webp' />
 
         <meta
           property='twitter:site'
@@ -41,7 +38,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property='twitter:image'
-          content='public/assets/inicio-og-duende.webp'
+          content='/assets/inicio-og-duende.webp'
         />
       </Head>
       <body
