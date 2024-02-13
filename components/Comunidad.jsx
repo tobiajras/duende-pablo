@@ -75,9 +75,9 @@ const Comunidad = () => {
                         <svg
                           stroke='currentColor'
                           fill='currentColor'
-                          stroke-width='0'
+                          strokeWidth='0'
                           viewBox='0 0 640 512'
-                          class='fill-text-primary h-20 sm:h-28 md:h-36 lg:h-44 w-20 sm:w-28 md:w-36 lg:w-44 bg-[#7289D9] rounded-full p-4 md:p-7'
+                          className='fill-text-primary h-20 sm:h-28 md:h-36 lg:h-44 w-20 sm:w-28 md:w-36 lg:w-44 bg-[#7289D9] rounded-full p-4 md:p-7'
                           height='1em'
                           width='1em'
                           xmlns='http://www.w3.org/2000/svg'

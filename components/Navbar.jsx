@@ -28,27 +28,27 @@ const Navbar = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 20 20'
               aria-hidden='true'
-              class='w-9 h-9'
+              className='w-9 h-9'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
             >
               <path
-                fill-rule='evenodd'
+                fillRule='evenodd'
                 d='M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z'
-                clip-rule='evenodd'
+                clipRule='evenodd'
               ></path>
             </svg>
           ) : (
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 512 512'
-              class='w-9 h-9'
+              className='w-9 h-9'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -74,9 +74,9 @@ const Navbar = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 1024 1024'
-                  class='md:hidden w-6 h-6'
+                  className='md:hidden w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -95,9 +95,9 @@ const Navbar = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 384 512'
-                  class='md:hidden w-6 h-6'
+                  className='md:hidden w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -116,18 +116,18 @@ const Navbar = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 24 24'
                   aria-hidden='true'
-                  class='md:hidden w-6 h-6'
+                  className='md:hidden w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
                 Duende
@@ -142,9 +142,9 @@ const Navbar = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 576 512'
-                  class='md:hidden w-6 h-6'
+                  className='md:hidden w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -165,7 +165,7 @@ const Navbar = () => {
         >
           <Link
             onClick={() => setIsOpen(false)}
-            className='text-text-primary font-medium background-gradient rounded py-3 px-5 text-lg w-full flex justify-center md:w-auto'
+            className='text-text-primary font-medium bg-primary-dark hover:bg-primary transition-colors  rounded py-3 px-5 text-lg w-full flex justify-center md:w-auto'
             href='/contacto'
           >
             Contacto

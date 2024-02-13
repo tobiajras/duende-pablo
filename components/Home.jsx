@@ -11,7 +11,7 @@ const Home = () => {
           <svg
             stroke='currentColor'
             fill='currentColor'
-            stroke-width='0'
+            strokeWidth='0'
             viewBox='0 0 384 512'
             height='1em'
             width='1em'
@@ -38,9 +38,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 512 512'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -58,9 +58,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 24 24'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -78,9 +78,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 576 512'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -98,9 +98,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 448 512'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -118,9 +118,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 512 512'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -138,9 +138,9 @@ const Home = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 640 512'
-              class='w-5 h-5 md:w-7 md:h-7'
+              className='w-5 h-5 md:w-7 md:h-7'
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
@@ -157,7 +157,7 @@ const Home = () => {
           src='/assets/personaje-duende.webp'
           alt='funko-duende-pablo'
           width={200}
-          height={300}
+          height={320}
         />
       </article>
     </section>

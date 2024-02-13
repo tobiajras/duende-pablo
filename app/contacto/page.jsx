@@ -77,18 +77,18 @@ const Contacto = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 24 24'
                   aria-hidden='true'
-                  class='w-4 h-4 sm:w-5 sm:h-5'
+                  className='w-4 h-4 sm:w-5 sm:h-5'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
               </span>
@@ -112,11 +112,11 @@ const Contacto = () => {
                 <svg
                   stroke='currentColor'
                   fill='none'
-                  stroke-width='2'
+                  strokeWidth='2'
                   viewBox='0 0 24 24'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  class='w-4 h-4 sm:w-5 sm:h-5'
+                  className='w-4 h-4 sm:w-5 sm:h-5'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -124,12 +124,12 @@ const Contacto = () => {
                   <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
                   <path
                     d='M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z'
-                    stroke-width='0'
+                    strokeWidth='0'
                     fill='currentColor'
                   ></path>
                   <path
                     d='M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z'
-                    stroke-width='0'
+                    strokeWidth='0'
                     fill='currentColor'
                   ></path>
                 </svg>
@@ -165,9 +165,9 @@ const Contacto = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 16 16'
-                  class='w-full h-full'
+                  className='w-full h-full'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -180,7 +180,7 @@ const Contacto = () => {
               disabled={sent && true}
               className={`${
                 sent && ' opacity-80'
-              } mt-5 text-text-primary text-lg sm:text-xl py-3 px-5 rounded-md font-semibold background-gradient placeholder-text-primary outline-none`}
+              } mt-5 text-text-primary text-lg sm:text-xl py-3 px-5 rounded-md font-semibold bg-primary-dark hover:bg-primary transition-colors placeholder-text-primary outline-none`}
               type='submit'
             >
               {loading ? 'Enviando...' : sent ? 'Enviado!' : 'Enviar'}

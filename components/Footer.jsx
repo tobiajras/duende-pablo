@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='flex md:justify-center border-t-[1px] bg-background-primary border-neutral-800 '>
+    <footer className='flex md:justify-center border-t-[1px] bg-background-primary border-neutral-800'>
       <div className='max-w-6xl m-6 sm:m-8 md:m-10 w-full'>
         <section className='flex flex-col md:flex-row gap-4 md:gap-20 '>
           <article className='flex flex-col items-center'>
@@ -27,9 +27,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 512 512'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -47,9 +47,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 24 24'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -67,9 +67,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 576 512'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -87,9 +87,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 448 512'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -107,9 +107,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 512 512'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
@@ -127,9 +127,9 @@ const Footer = () => {
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
-                  stroke-width='0'
+                  strokeWidth='0'
                   viewBox='0 0 640 512'
-                  class='w-6 h-6'
+                  className='w-6 h-6'
                   height='1em'
                   width='1em'
                   xmlns='http://www.w3.org/2000/svg'
