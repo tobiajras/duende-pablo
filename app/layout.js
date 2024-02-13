@@ -19,13 +19,12 @@ export const metadata = {
     images: '/inicio-og-duende.png',
   },
   twitter: {
+    card: 'summary_large_image',
     title: 'Duende Pablo - Streamer Argentino',
     description: 'Creador de contenido de Twitch y Youtube - Argentina',
     images: ['/inicio-og-duende.png'],
   },
 };
-// title: 'Duende Pablo - Streamer Argentino',
-// description: 'Creador de contenido de Twitch y Youtube - Argentina',
 
 export default function RootLayout({ children }) {
   return (
