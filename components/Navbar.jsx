@@ -12,10 +12,10 @@ const Navbar = () => {
     <header className='flex md:justify-center w-full fixed top-0 left-0 right-0 bg-background-primary z-50'>
       <div className='flex justify-between items-center max-w-6xl w-full h-20 md:h-24 py-3 mx-6 sm:mx-8 md:mx-10'>
         <div className='h-full w-full flex justify-start md:w-auto'>
-          <Link href='/' onClick={() => setIsOpen(false)}>
+          <Link className='w-full' href='/' onClick={() => setIsOpen(false)}>
             <Image
               priority={true}
-              className='h-full w-full'
+              className='h-full w-full object-contain'
               src='/assets/duendeLogoSvg.svg'
               alt='duende-pablo-logo'
               width={80}
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={() => setIsOpen(!isOpen)}
-          className='w-full flex justify-end md:w-auto md:hidden relative '
+          className='w-full flex justify-end md:w-auto md:hidden relative'
         >
           {!isOpen ? (
             <svg
