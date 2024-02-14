@@ -14,14 +14,14 @@ export const metadata = {
     title: 'Duende Pablo - Streamer Argentino',
     description: 'Creador de contenido de Twitch y Youtube - Argentina',
     url: 'https://duende-pablo.vercel.app/',
-    image: '/opengraph-image.png',
+    image: '/assets/opengraph-image.png',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Duende Pablo - Streamer Argentino',
     description: 'Creador de contenido de Twitch y Youtube - Argentina',
-    image: ['/twitter-image.png'],
+    image: ['/assets/twitter-image.png'],
   },
 };
 
