@@ -10,12 +10,6 @@ const assistant = Assistant({ subsets: ['latin'] });
 export const metadata = {
   title: 'Duende Pablo - Streamer Argentino',
   description: 'Creador de contenido de Twitch y Youtube - Argentina',
-  openGraph: {
-    title: 'Duende Pablo - Streamer Argentino',
-    description: 'Creador de contenido de Twitch y Youtube - Argentina',
-    url: 'https://duende-pablo.vercel.app/',
-    type: 'website',
-  },
   twitter: {
     card: 'summary_large_image',
     title: 'Duende Pablo - Streamer Argentino',
