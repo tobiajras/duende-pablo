@@ -8,7 +8,6 @@ import Footer from '@/components/Footer';
 const assistant = Assistant({ subsets: ['latin'] });
 
 export const metadata = {
-  metadataBase: new URL('http://localhost:3000'),
   title: 'Duende Pablo - Streamer Argentino',
   description: 'Creador de contenido de Twitch y Youtube - Argentina',
   openGraph: {
