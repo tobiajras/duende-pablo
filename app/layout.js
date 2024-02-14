@@ -28,7 +28,7 @@ const assistant = Assistant({ subsets: ['latin'] });
 
 export default function RootLayout({ children }) {
   return (
-    <>
+    <html lang='en'>
       <Head>
         <title>Duende Pablo - Streamer Argentino</title>
         <meta
@@ -55,15 +55,13 @@ export default function RootLayout({ children }) {
         />
         <meta name='twitter:image' content='/twitter-image.png' />
       </Head>
-      <html lang='en'>
-        <body
-          className={`${assistant.className} bg-background-primary background-blur text-text-secondary`}
-        >
-          <Navbar />
-          <ReactQuery>{children}</ReactQuery>
-          <Footer />
-        </body>
-      </html>
-    </>
+      <body
+        className={`${assistant.className} bg-background-primary background-blur text-text-secondary`}
+      >
+        <Navbar />
+        <ReactQuery>{children}</ReactQuery>
+        <Footer />
+      </body>
+    </html>
   );
 }
