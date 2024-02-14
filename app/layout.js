@@ -21,7 +21,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Duende Pablo - Streamer Argentino',
     description: 'Creador de contenido de Twitch y Youtube - Argentina',
-    image: ['/opengraph-image.png'],
+    image: ['/twiiter-image.png'],
   },
 };
 
