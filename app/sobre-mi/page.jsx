@@ -50,9 +50,9 @@ const SobreMi = () => {
                 once: true,
                 margin: '0px 0px -200px 0px',
               }}
-              className='flex flex-col md:flex-row items-center gap-5 lg:gap-10'
+              className='flex flex-col lg:flex-row items-center gap-5 lg:gap-10'
             >
-              <div className='min-w-[288px] sm:min-w-max sm:w-[450px] md:w-80 lg:w-[450px]'>
+              <div className='min-w-24 sm:min-h-max sm:h-80'>
                 <Image
                   priority={idx < 2 ? true : false}
                   className='w-full h-full object-contain rounded-md md:rounded-xl'
@@ -63,8 +63,8 @@ const SobreMi = () => {
                 />
               </div>
               <div className='flex gap-3 md:gap-5'>
-                <div className='bg-primary w-1.5 '></div>
-                <div className='py-1 md:py-3 max-w-lg'>
+                <div className='bg-primary w-0.5 sm:w-1'></div>
+                <div className='py-1 md:py-3 max-w-lg w-full'>
                   <h4 className='text-lg md:text-xl lg:text-2xl text-text-primary font-semibold mb-2 md:mb-3'>
                     {historiaItem.title}
                   </h4>
@@ -89,11 +89,11 @@ const SobreMi = () => {
                 once: true,
                 margin: '0px 0px -200px 0px',
               }}
-              className='flex flex-col-reverse md:flex-row items-center gap-5 lg:gap-10'
+              className='flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-10'
             >
               <div className='flex gap-3 md:gap-5'>
-                <div className='bg-primary w-1.5'></div>
-                <div className='py-1 md:py-3 max-w-lg'>
+                <div className='bg-primary w-0.5 sm:w-1'></div>
+                <div className='py-1 md:py-3 max-w-lg w-full'>
                   <h4 className='text-lg md:text-xl lg:text-2xl text-text-primary font-semibold mb-2 md:mb-3'>
                     {historiaItem.title}
                   </h4>
