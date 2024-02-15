@@ -31,7 +31,7 @@ const Comunidad = () => {
 
   return (
     <motion.section
-      className='flex flex-col items-center w-full'
+      className='flex flex-col items-center w-full relative'
       variants={comunidadVariants}
       initial='inactive'
       whileInView='active'
@@ -45,7 +45,7 @@ const Comunidad = () => {
           Comunidad
         </h3>
       </div>
-      <article className='flex justify-center background-blur w-full p-6 sm:p-8 md:p-10 pb-10 md:pb-20'>
+      <article className='flex justify-center w-full p-6 sm:p-8 md:p-10 pb-10 md:pb-20'>
         <div className='overflow-hidden max-w-6xl' ref={emblaRef}>
           <div className='flex gap-4 md:gap-10'>
             {comunidad.map((comunidadItem) => (

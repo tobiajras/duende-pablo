@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 const assistant = Assistant({ subsets: ['latin'] });
 
 export const metadata = {
+  metadataBase: 'https://duende-pablo.vercel.app/',
   title: 'Duende Pablo - Streamer Argentino',
   description: 'Creador de contenido de Twitch y Youtube - Argentina',
   openGraph: {
@@ -25,9 +26,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='es'>
       <body
-        className={`${assistant.className} bg-background-primary background-blur text-text-secondary`}
+        className={`${assistant.className} bg-background-primary text-text-secondary background-blur`}
       >
         <Navbar />
         <ReactQuery>{children}</ReactQuery>
