@@ -34,8 +34,13 @@ function timeSince(date) {
     return Math.floor(interval) + ' meses';
   }
   interval = seconds / 86400;
-  if (interval > 1) {
-    return Math.floor(interval) + ' días';
+  if (interval >= 1) {
+    const days = Math.floor(interval);
+    if (days === 1) {
+      return '1 día';
+    } else {
+      return days + ' días';
+    }
   }
   interval = seconds / 3600;
   if (interval > 1) {
@@ -73,11 +78,11 @@ const CarouselEmbla = ({ videos }) => {
           <div className='flex gap-4 md:gap-10'>
             {videos.map((video) => (
               <div
-                key={video.id.videoId}
+                key={video.id}
                 className='flex flex-[0_0_40%] md:flex-[0_0_25%]'
               >
                 <Link
-                  href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                  href={`https://www.youtube.com/watch?v=${video.id}`}
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -107,7 +112,7 @@ const CarouselEmbla = ({ videos }) => {
                       </span>
                     </div>
                     <span className='text-xs md:text-sm'>
-                      • hace {timeSince(video.snippet.publishTime)}
+                      • hace {timeSince(video.snippet.publishedAt)}
                     </span>
                   </div>
                 </Link>
