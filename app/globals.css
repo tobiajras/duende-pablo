@@ -76,102 +76,6 @@
   padding: 0 20px;
 }
 
-.background-blur::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 550px;
-  left: 0;
-  z-index: -999;
-}
-
-.background-blur::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 1100px;
-  right: 0;
-  z-index: -999;
-}
-
-.background-blur-2::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 1650px;
-  left: 0;
-  z-index: -999;
-}
-
-.background-blur-2::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 2200px;
-  right: 0;
-  z-index: -999;
-}
-
-.background-blur-3::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 2750px;
-  left: 0;
-  z-index: -999;
-}
-
-.background-blur-3::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 3300px;
-  right: 0;
-  z-index: -999;
-}
-
-.background-blur-4::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 3850px;
-  left: 0;
-  z-index: -999;
-}
-
-.background-blur-4::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  bottom: 4400px;
-  right: 0;
-  z-index: -999;
-}
-
 .sponsor-aorus::before {
   content: 'Aorus';
   display: flex;
@@ -189,53 +93,215 @@
   border-radius: 12px;
 }
 
-@media screen and (min-width: 768px) {
+.background-blur::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 460px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 920px;
+  right: 0;
+  z-index: -999;
+}
+
+.background-blur-2::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 1380px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur-2::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 1850px;
+  right: 0;
+  z-index: -999;
+}
+
+.background-blur-3::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 2310px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur-3::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 2770px;
+  right: 0;
+  z-index: -999;
+}
+
+.background-blur-4::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 3230px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur-4::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 3690px;
+  right: 0;
+  z-index: -999;
+}
+
+@media screen and (min-width: 640px) {
   .background-blur::before {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 500px;
   }
 
   .background-blur::after {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 1000px;
   }
 
   .background-blur-2::before {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 1500px;
   }
 
   .background-blur-2::after {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 2000px;
   }
 
   .background-blur-3::before {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 2500px;
   }
 
   .background-blur-3::after {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 3000px;
   }
 
   .background-blur-4::before {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 3500px;
   }
 
   .background-blur-4::after {
     width: 80px;
     height: 80px;
     filter: blur(90px);
+    bottom: 4000px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .background-blur::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 560px;
+  }
+
+  .background-blur::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 1120px;
+  }
+
+  .background-blur-2::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 1680px;
+  }
+
+  .background-blur-2::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 2250px;
+  }
+
+  .background-blur-3::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 2800px;
+  }
+
+  .background-blur-3::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 3360px;
+  }
+
+  .background-blur-4::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 3920px;
+  }
+
+  .background-blur-4::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+    bottom: 4480px;
   }
 }
 
@@ -244,48 +310,56 @@
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 550px;
   }
 
   .background-blur::after {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 1100px;
   }
 
   .background-blur-2::before {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 1650px;
   }
 
   .background-blur-2::after {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 2200px;
   }
 
   .background-blur-3::before {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 2750px;
   }
 
   .background-blur-3::after {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 3300px;
   }
 
   .background-blur-4::before {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 3850px;
   }
 
   .background-blur-4::after {
     width: 100px;
     height: 100px;
     filter: blur(120px);
+    bottom: 4400px;
   }
 }
 
