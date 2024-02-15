@@ -7,7 +7,7 @@ import React from 'react';
 
 const Page = () => {
   return (
-    <main className='flex flex-col items-center min-h-screen background-blur-2'>
+    <main className='flex flex-col items-center min-h-screen'>
       <Home />
       {/* <PlaceholderVideosRecientes /> */}
       <VideosRecientes />

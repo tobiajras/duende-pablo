@@ -76,18 +76,6 @@
   padding: 0 20px;
 }
 
-.background-blur::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-light);
-  filter: blur(60px);
-  top: 350px;
-  right: 0;
-  z-index: -999;
-}
-
 .background-blur::after {
   content: '';
   position: absolute;
@@ -95,19 +83,19 @@
   height: 50px;
   background-color: var(--primary-light);
   filter: blur(60px);
-  top: 700px;
+  bottom: 550px;
   left: 0;
   z-index: -999;
 }
 
-.background-blur-2::before {
+.background-blur::before {
   content: '';
   position: absolute;
   width: 50px;
   height: 50px;
   background-color: var(--primary-light);
   filter: blur(60px);
-  top: 1050px;
+  bottom: 1100px;
   right: 0;
   z-index: -999;
 }
@@ -119,8 +107,68 @@
   height: 50px;
   background-color: var(--primary-light);
   filter: blur(60px);
-  top: 1400px;
+  bottom: 1650px;
   left: 0;
+  z-index: -999;
+}
+
+.background-blur-2::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 2200px;
+  right: 0;
+  z-index: -999;
+}
+
+.background-blur-3::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 2750px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur-3::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 3300px;
+  right: 0;
+  z-index: -999;
+}
+
+.background-blur-4::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 3850px;
+  left: 0;
+  z-index: -999;
+}
+
+.background-blur-4::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-light);
+  filter: blur(60px);
+  bottom: 4400px;
+  right: 0;
   z-index: -999;
 }
 
@@ -165,6 +213,30 @@
     height: 80px;
     filter: blur(90px);
   }
+
+  .background-blur-3::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+  }
+
+  .background-blur-3::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+  }
+
+  .background-blur-4::before {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+  }
+
+  .background-blur-4::after {
+    width: 80px;
+    height: 80px;
+    filter: blur(90px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -187,6 +259,30 @@
   }
 
   .background-blur-2::after {
+    width: 100px;
+    height: 100px;
+    filter: blur(120px);
+  }
+
+  .background-blur-3::before {
+    width: 100px;
+    height: 100px;
+    filter: blur(120px);
+  }
+
+  .background-blur-3::after {
+    width: 100px;
+    height: 100px;
+    filter: blur(120px);
+  }
+
+  .background-blur-4::before {
+    width: 100px;
+    height: 100px;
+    filter: blur(120px);
+  }
+
+  .background-blur-4::after {
     width: 100px;
     height: 100px;
     filter: blur(120px);

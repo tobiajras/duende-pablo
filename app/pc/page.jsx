@@ -75,10 +75,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                ZOTAC GeForce RTX 2070 Super Mini 8GB GDDR6 256-Bit 14Gbps
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -95,6 +92,9 @@ const Pc = () => {
                 </svg>
                 <span>Placa de Video</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                ZOTAC GeForce RTX 2070 Super Mini 8GB GDDR6 256-Bit 14Gbps
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -115,10 +115,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Intel Core i9-10900K 10 Cores, up to 5.3 GHz Unlocked
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -134,6 +131,9 @@ const Pc = () => {
                 </svg>
                 <span>Procesador</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Intel Core i9-10900K 10 Cores, up to 5.3 GHz Unlocked
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -154,10 +154,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Gigabyte H470I AORUS PRO AX, Mini ITX/DDR4/WIFI 6
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -173,6 +170,9 @@ const Pc = () => {
                 </svg>
                 <span>Placa Madre</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Gigabyte H470I AORUS PRO AX, Mini ITX/DDR4/WIFI 6
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -193,10 +193,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Corsair Dominator Platinum RGB 32GB (4x8GB) DDR4 3600
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -211,6 +208,9 @@ const Pc = () => {
                 </svg>
                 <span>Memoria Ram</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Corsair Dominator Platinum RGB 32GB (4x8GB) DDR4 3600
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -230,10 +230,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                1TB WD Blue SN550 NVMe Internal SSD - Gen3 x4 PCIe 8Gb/s
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -248,6 +245,9 @@ const Pc = () => {
                 </svg>
                 <span>Memoria SSD</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                1TB WD Blue SN550 NVMe Internal SSD - Gen3 x4 PCIe 8Gb/s
+              </h4>
             </motion.li>
           </ul>
         </article>
@@ -264,7 +264,7 @@ const Pc = () => {
           >
             Periféricos
           </motion.h4>
-          <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
+          <ul className='grid grid-cols-2 gap-x-4 md:grid-cols-3 lg:grid-cols-4 md:gap-x-10 gap-y-10 md:gap-y-28'>
             <motion.li
               variants={pcVariants}
               initial='inactive'
@@ -283,10 +283,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Mouse Inalámbrico Logitech G Pro X Superlight
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -301,6 +298,9 @@ const Pc = () => {
                 </svg>
                 <span>Mouse</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Mouse Inalámbrico Logitech G Pro X Superlight
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -320,10 +320,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Teclado Mecanico Gamer Logitech G Pro X
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -338,6 +335,9 @@ const Pc = () => {
                 </svg>
                 <span>Teclado</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Teclado Mecanico Gamer Logitech G Pro X
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -357,10 +357,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Microfono Shure Sm7b Cardioid Dynamic
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -375,6 +372,9 @@ const Pc = () => {
                 </svg>
                 <span>Micrófono</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Microfono Shure Sm7b Cardioid Dynamic
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -394,10 +394,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                RODE PSA1 Brazo de estudio profesional
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -414,6 +411,9 @@ const Pc = () => {
                 </svg>
                 <span>Brazo</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                RODE PSA1 Brazo de estudio profesional
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -433,10 +433,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Monitor Gamer 27p Asus
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -451,6 +448,9 @@ const Pc = () => {
                 </svg>
                 <span>Monitor</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Monitor Gamer 27p Asus
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -470,10 +470,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Stream Deck Classis - 15 customisable LCD keys
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -489,6 +486,9 @@ const Pc = () => {
                 </svg>
                 <span>Stream Deck</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Stream Deck Classis - 15 customisable LCD keys
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -508,10 +508,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Cámara Digital Mirrorless Full Frame ILCE-7C A7C
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -527,6 +524,9 @@ const Pc = () => {
                 </svg>
                 <span>Cámara</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Cámara Digital Mirrorless Full Frame ILCE-7C A7C
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -546,10 +546,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Lente de zoom gran angular G Master FE 16-35 mm
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -565,6 +562,9 @@ const Pc = () => {
                 </svg>
                 <span>Lente</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Lente de zoom gran angular G Master FE 16-35 mm
+              </h4>
             </motion.li>
             <motion.li
               variants={pcVariants}
@@ -584,10 +584,7 @@ const Pc = () => {
                   height={200}
                 />
               </div>
-              <h4 className='mt-1 md:mt-3 text-text-primary md:text-lg font-medium'>
-                Silla Gamer Corsair T3 Rush Gris Carbon
-              </h4>
-              <div className='flex items-center gap-2 text-sm md:text-lg mt-2'>
+              <div className='flex items-center gap-2 text-sm md:text-lg mt-1 md:mt-3'>
                 <svg
                   stroke='currentColor'
                   fill='currentColor'
@@ -602,6 +599,9 @@ const Pc = () => {
                 </svg>
                 <span>Silla</span>
               </div>
+              <h4 className='text-text-primary md:text-lg font-medium mt-2'>
+                Silla Gamer Corsair T3 Rush Gris Carbon
+              </h4>
             </motion.li>
           </ul>
         </article>
