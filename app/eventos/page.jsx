@@ -79,7 +79,7 @@ const Eventos = () => {
               variants={eventVariants}
               initial='inactive'
               animate={isVisible[idx] && 'active'}
-              className='mt-3 md:mt-5 text-lg md:text-2xl text-text-primary font-semibold'
+              className='mt-3 md:mt-5 text-lg md:text-2xl text-text-primary font-semibold lg:h-8'
             >
               {evento.title}
             </motion.h4>
@@ -88,7 +88,7 @@ const Eventos = () => {
               variants={eventVariants}
               initial='inactive'
               animate={isVisible[idx] && 'active'}
-              className='mt-1 md:mt-2 text-sm md:text-lg'
+              className='mt-1 md:mt-2 text-sm md:text-lg md:h-28 lg:h-24'
             >
               {evento.description}
             </motion.p>
