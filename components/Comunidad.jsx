@@ -51,7 +51,7 @@ const Comunidad = () => {
             {comunidad.map((comunidadItem) => (
               <div
                 key={comunidadItem.id}
-                className='flex-[0_0_55%] sm:flex-[0_0_35%] md:flex-[0_0_35%] rounded-md md:rounded-xl relative comunidad-gradient'
+                className='flex-[0_0_55%] sm:flex-[0_0_35%] md:flex-[0_0_35%] rounded-md md:rounded-xl relative comunidad-gradient comunidad-card-animation'
               >
                 <Link
                   href={comunidadItem.link}
@@ -62,7 +62,7 @@ const Comunidad = () => {
                   {comunidadItem.image ? (
                     <div className='h-20 sm:h-28 md:h-36 lg:h-44'>
                       <Image
-                        className='w-full h-full object-contain object-top drop-shadow-2xl'
+                        className='w-full h-full object-contain object-top drop-shadow-2xl '
                         src={comunidadItem.image}
                         alt={comunidadItem.alt}
                         width={300}

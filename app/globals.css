@@ -93,6 +93,30 @@
   border-radius: 12px;
 }
 
+.carousel-image-animation {
+  transition: scale 0.5s;
+}
+
+.carousel-image-animation:hover {
+  scale: 1.1;
+}
+
+.comunidad-card-animation {
+  transition: scale 0.3s;
+}
+
+.comunidad-card-animation:hover {
+  scale: 0.95;
+}
+
+.sponsors-image-animation {
+  transition: scale 0.5s;
+}
+
+.sponsors-image-animation:hover {
+  scale: 1.1;
+}
+
 .background-blur::before {
   content: '';
   position: absolute;

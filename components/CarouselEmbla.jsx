@@ -53,7 +53,7 @@ function timeSince(date) {
   return Math.floor(seconds) + ' segundos';
 }
 
-const CarouselEmbla = ({ videos }) => {
+const CarouselEmbla = ({ videos, titulo, opcion }) => {
   const [emblaRef] = useEmblaCarousel({
     dragFree: true,
   });
@@ -70,7 +70,10 @@ const CarouselEmbla = ({ videos }) => {
     >
       <div className='w-full flex justify-center'>
         <h3 className='w-full text-xl md:text-3xl font-semibold items-start max-w-6xl mx-6 sm:mx-8 md:mx-10'>
-          Videos Recientes
+          {titulo} -{' '}
+          <span className='text-sm sm:text-base md:text-xl'>
+            Videos Recientes
+          </span>
         </h3>
       </div>
       <div className='flex justify-center w-full p-6 sm:p-8 pb-10 md:p-10 md:pb-20'>
@@ -86,30 +89,49 @@ const CarouselEmbla = ({ videos }) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Image
-                    className=' object-cover object-center rounded-lg'
-                    src={video.snippet.thumbnails.medium.url}
-                    alt={video.snippet.title}
-                    width={1200}
-                    height={675}
-                  />
+                  <div className='overflow-hidden'>
+                    <Image
+                      className='rounded-lg carousel-image-animation'
+                      src={video.snippet.thumbnails.medium.url}
+                      alt={video.snippet.title}
+                      width={1200}
+                      height={675}
+                    />
+                  </div>
                   <div className='mt-3'>
-                    <h2 className='text-text-primary text-sm md:text-base line-clamp-2'>
+                    <h2 className='text-text-primary text-sm md:text-base line-clamp-2 h-10 md:h-12'>
                       {video.snippet.title}
                     </h2>
                   </div>
                   <div className='flex gap-2 items-center mt-2'>
                     <div className='flex items-center gap-2'>
-                      <Image
-                        className='rounded-full w-5 h-5'
-                        alt='canal-duende-pablo'
-                        src='/assets/canal-duende-pablo.webp'
-                        width={25}
-                        height={25}
-                      />
-                      <span className='hidden sm:block text-xs md:text-sm'>
-                        Duende Pablo
-                      </span>
+                      {opcion == 1 ? (
+                        <>
+                          <Image
+                            className='rounded-full w-5 h-5'
+                            alt='canal-duende-pablo'
+                            src='/assets/canal-duende-pablo.webp'
+                            width={25}
+                            height={25}
+                          />
+                          <span className='hidden sm:block text-xs md:text-sm'>
+                            Duende Pablo
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <Image
+                            className='rounded-full w-5 h-5'
+                            alt='canal-duende-gaming'
+                            src='/assets/canal-duende-gaming.webp'
+                            width={25}
+                            height={25}
+                          />
+                          <span className='hidden sm:block text-xs md:text-sm'>
+                            Duende Gaming
+                          </span>
+                        </>
+                      )}
                     </div>
                     <span className='text-xs md:text-sm'>
                       • hace {timeSince(video.snippet.publishedAt)}

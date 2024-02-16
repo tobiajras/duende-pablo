@@ -31,7 +31,7 @@ const Sponsors = () => {
         whileInView='active'
         viewport={{
           once: true,
-          margin: '0px 0px -240px 0px',
+          margin: '0px 0px -220px 0px',
         }}
         className='w-full flex justify-center'
       >
@@ -57,13 +57,15 @@ const Sponsors = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <Image
-                  className='w-full h-full object-cover object-top rounded-md lg:rounded-xl'
-                  src={sponsor.image}
-                  alt={sponsor.alt}
-                  width={300}
-                  height={100}
-                />
+                <div className='overflow-hidden'>
+                  <Image
+                    className='w-full h-full object-cover object-top rounded-md lg:rounded-xl sponsors-image-animation '
+                    src={sponsor.image}
+                    alt={sponsor.alt}
+                    width={300}
+                    height={100}
+                  />
+                </div>
               </Link>
             </div>
             <div>
