@@ -6,7 +6,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 import UserIcon from '@/components/icons/UserIcon';
-import EmailIcon from '@/components/icons/emailIcon';
+import EmailIcon from '@/components/icons/EmailIcon';
 import MessageIcon from '@/components/icons/MessageIcon';
 
 const contactVariant = {
