@@ -51,15 +51,15 @@ const Sponsors = () => {
             }}
             key={sponsor.id}
           >
-            <div className='h-24 sm:h-40 md:h-48 lg:h-52'>
+            <div className=''>
               <Link
                 href={sponsor.link}
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <div className='overflow-hidden'>
+                <div className='overflow-hidden rounded-md lg:rounded-xl'>
                   <Image
-                    className='w-full h-full object-cover object-top rounded-md lg:rounded-xl sponsors-image-animation '
+                    className='w-full object-cover object-top rounded-md lg:rounded-xl sponsors-image-animation '
                     src={sponsor.image}
                     alt={sponsor.alt}
                     width={300}
