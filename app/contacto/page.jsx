@@ -27,7 +27,7 @@ const contactVariant = {
 const Contacto = () => {
   const emailjs_service_id = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
   const emailjs_template_id = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-  const emailjs_api_key = process.env.NEXT_PUBLIC_EMAILJS_API_KEY;
+  const emailjs_api_key = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API_KEY;
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
