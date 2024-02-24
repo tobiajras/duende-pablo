@@ -157,11 +157,11 @@ const Footer = () => {
           </article>
         </section>
       </div>
-      <div className='bg-black text-base py-2 flex gap-2 justify-center'>
+      <div className='bg-black text-base py-3 flex gap-2 justify-center'>
         <span>Desarrollado por:</span>
         <Link
           className='hover:text-text-primary transition-colors'
-          href='https://tobiasajras.netlify.app/'
+          href='https://www.linkedin.com/in/tobiasajras/'
           target='_blank'
           rel='noopener noreferrer'
         >
